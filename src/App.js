@@ -40,22 +40,22 @@ componentWillUnmount() {
     return (
       <div>
         <Router>
-        <Header />
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/shop' component={ShopPage} />
-          <Route
-            exact
-            path='/signin'
-            render={() =>
-              this.props.currentUser ? (
-                <Redirect to='/' />
-              ) : (
-                <SignInPage />
-              )
-            }
-          />
-        </Switch>
+          <Header />
+          <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route path='/shop' component={ShopPage} />
+            <Route
+              exact
+              path='/signin'
+              render={() =>
+                this.props.currentUser ? (
+                  <Redirect to='/' />
+                ) : (
+                  <SignInPage />
+                )
+              }
+            />
+          </Switch>
         </Router>
       </div>
     );
