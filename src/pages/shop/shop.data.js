@@ -1,245 +1,245 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'JavaScript',
+    routeName: 'javascript',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'JavaScript Basics',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'JavaScript ES6 Arrow Functions',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'JavaScript Data Types',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'JavaScipt Objects',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'JavaScript Loops',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'JavaScript Conditional Statements',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'JavaScript Understanding DOM',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'JavaScript Debugging',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'JavaScript Transitions & Animations',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+        price: 5
       }
     ]
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Vue.JS',
+    routeName: 'vue',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Vue Basics',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Vue Router',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: 'Vue CLI',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Vue Directives',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Vue Computed Properties',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
+        name: 'Vue X',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+        name: 'Vue and Firebase',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
         price: 190
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+        name: 'Vue Transitions & Animations',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
         price: 200
       }
     ]
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'React.JS',
+    routeName: 'react',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'React Basics',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'React Components',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        name: 'React Redux',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'React Router',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
+        price: 5
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'React Hooks',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
+        price: 5
       }
     ]
   },
   {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Full-Stack Courses',
+    routeName: 'fullstack',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'React, Node, Firebase, and GraphQL',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 25
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'Vue, Node, Express, and Mongo',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 20
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+        name: 'Angular, Node, and Firebase',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 80
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+        name: 'Python and DJango',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 80
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
+        name: 'JavaScript, Node, HTML, SQL and CSS',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 45
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+        name: 'Laravel and Vue',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 135
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+        name: 'Spring and Angular',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
         price: 20
       }
     ]
   },
   {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'Programming T-Shirts',
+    routeName: 'tshirts',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+        name: 'I know HTML',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 325
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+        name: 'Turn Coffee into Code',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 20
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+        name: 'Coderality',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 25
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+        name: 'JavaScript',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 25
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
+        name: 'Sudo Make me A Sandwich',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 40
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'Eat Sleep Code Repeat',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
         price: 25
       }
     ]

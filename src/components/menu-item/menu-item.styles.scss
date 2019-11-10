@@ -6,12 +6,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     margin: 0 7.5px 15px;
     overflow: hidden;
-  
+    
+
     &:hover {
       cursor: pointer;
+      box-shadow: 0px 7px 37px 7px rgba(99, 0, 99, 0.27);
   
       & .background-image {
         transform: scale(1.1);
@@ -40,24 +41,21 @@
       height: 100%;
       background-size: cover;
       background-position: center;
+      
     }
   
     .content {
-      height: 90px;
-      padding: 0 25px;
+      height: 190px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid black;
-      background-color: white;
+      align-items: left;
       opacity: 0.7;
       position: absolute;
-  
+
+
       .title {
-        font-weight: bold;
-        margin: 0 6px 0;
-        font-size: 22px;
+        font-weight: 200;
+        font-size: 28px;
         color: #4a4a4a;
       }
   

@@ -12,33 +12,33 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAnj63rq5Eiowav-k7-JO1zZkqZv8ptrUXkE-qGZx7df8-AAqsUELQWxaT0dUsC1zgpRdGvbdxBLE3RSGiUzrVB0r7wLrxsgOkUFK4AMFt3gDG6cZZ8vynpPuy8w5eTtLNqSt4XtN8GVGVIBKA5yuEdj7VyIMnvKkweuOUodOkddmXDG20di77Vh1YMzuut5Y19-SLAV8RWETS1PaftsA-JncoUyKhObJ26QEfXVfc6g92PNfc677upPJktLkvbHnpB3ranRcth99nGwWTWjH3E_ryCEVMgUBi2dxDcSq_XdgRPSR3gzOEcci0mf_nUr_1bxU8vUqqZb8pf1g0MPKz-rdCk2cM-kqtjG3OSNjSOQ5Q/p.png?fv_content=true&size_mode=5',
+          title: 'JavaScript Tutorials      ',
+          imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
           id: 1,
           linkUrl: 'hats'
         },
         {
-          title: 'jackets',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAmRw1rUorxdzOjSQcmG7OIEgQGGWeMBwrSCWmdZ-sIItuWoMiV7TICuYSwOcKEAyy_LODVhTzEW925CR5s8lFc306pYV4sDufJNcy0aOgME2ylraWWsQs3Econ0cXpw3Wn918niIdlorpwHldYf4MZRNkBk6nZHLtc4aPUIfTSASRxSI0MwS8Ftd8ZnMadTlksLD9Ku4zFV06cwpJfdOex9kcGwepzWQWkHALdCXTYCqE5Zf2FxYlw4qaTcNcQdO3teOhP-_ELmVKAmcdV3Vnbt6_2Xtz_JCjcbcxgVdqdivm-_n-32dRluFjXxymrgj4ZYBjDVCtb0PJAUKu7SuBVRlKANZ9n4jHa-MK9M4ogYKA/p.png?fv_content=true&size_mode=5',
+          title: 'Vue Tutorials',
+          imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
           id: 2,
           linkUrl: ''
         },
         {
-          title: 'sneakers',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAlOl_Dr2ZX6Emvx9fIJhYEAiSiA7wVDC-UWPFcuY2g8pMp8EZ_1Adaw55Vh1oSU0auKP19sEKUhQhEVKaS-xOucsqMG3BayUj-UWG0IuBzjMOxFfmrdLgVKvPIdM0Mcp9GT51UcxGXKkD1GebZ0S1cUMnqnRyn9IXByKriJFZNh7ZndnQDo3XknEHgZXRCEyrAod2QP8-e0N1tfy3tzcRSem2bEQMvUXvN2M9wPbOKfONPcpOdPpbV7IXzOv6MJ0PAl-AuPnPIJu88p-rZEguiXrG8iLlWEY-1pZDNtd00JQ7ANAqKHPOtkLTLZu6s1EMgC4tO8AYDhinfSOmq_ukpiAzcIHUHEEHCa-5OWV-HsjA/p.png?fv_content=true&size_mode=5',
+          title: 'React Tutorials',
+          imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
           id: 3,
           linkUrl: ''
         },
         {
-          title: 'womens',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAmUtj0Zwk8Y8CXrcwpry3lztS3WmWy3va7mnYRcZAVxabqnVNADqlOqEf0aedvMnn6MtEoFOk8ER6sttVeO45KG7yq8EnT3C-AdFeWDQZztpqe_Ho8C69RIjgbUWP72_lGA2XvAU1sMGvH21ipi4gl5bA0SuTMQx6oEgg8F5CbqtbYtU4d3_MJSJwXpS41ZggZfd3pktvEyz8L5VCT5SVaAGEH2GSKqEj7SV0r8ZCX4041l7vW-ux9puehPI6Y7NdW52tXRMvQeQ21cKDjsezVHs22aFycgtitR3tHLBcsegDxl64K8uEask8U19tzExWCw83hfqnggQHBEWO1n7MV8/p.png?fv_content=true&size_mode=5',
+          title: 'Programming T-Shirts',
+          imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
           size: 'large',
           id: 4,
           linkUrl: ''
         },
         {
-          title: 'mens',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAkBJrMqV0ZOzhb3hcKtnmJpOUzHircy6ej9giL0USfBENhGpB4PZ2uVikfbd9LspueBmBoNLCkkyQIqhjE4t9ChT55fAgwEbnzIJ30mEnGCeGRI3Mv8vLAXwlJ2df2qlVcxviZbqA5cHAToXSpRL4YIqgw9SvoPLQJmILSqg4ETQIdOBmupu20ng9IrCfIZ8a5PJr7rCCCTgg8cQgfxA-GCQMeWkjUyCEo--apr6lFwi-WsI5XfROlfnie9db54oCpT0L_pKyceNwc9W7_izm3oyhNKmd3TFTgXyR_cP8QDNeRMV-mMGoDhLYa6vJmaXAdKQKYbaRJl4e4iM8Nlw8m4/p.png?fv_content=true&size_mode=5',
+          title: 'Full-Stack Courses',
+          imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
           size: 'large',
           id: 5,
           linkUrl: ''
