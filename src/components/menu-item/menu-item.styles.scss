@@ -13,10 +13,13 @@
     &:hover {
       cursor: pointer;
       box-shadow: 0px 7px 37px 7px rgba(99, 0, 99, 0.27);
+      transition: all 0.8s ease;
   
       & .background-image {
         transform: scale(1.1);
+        transition: all 0.8s ease;
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        display: flex;
       }
   
       & .content {
@@ -41,7 +44,8 @@
       height: 100%;
       background-size: cover;
       background-position: center;
-      
+      display: none;
+      transition: all 0.8s ease;
     }
   
     .content {

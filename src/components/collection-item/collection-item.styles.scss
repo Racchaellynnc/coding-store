@@ -12,6 +12,8 @@
       background-size: cover;
       background-position: center;
       margin-bottom: 5px;
+      text-align: center;
+      padding-top: 15px;
     }
     
     .custom-button {
@@ -38,11 +40,6 @@
       display: flex;
       justify-content: space-between;
       font-size: 18px;
-  
-      .name {
-        width: 90%;
-        margin-bottom: 15px;
-      }
   
       .price {
         width: 10%;

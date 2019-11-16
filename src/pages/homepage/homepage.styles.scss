@@ -3,5 +3,40 @@
   flex-direction: column;
   align-items: center;
 }
+.moving-text {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 200;
+ 
+}
+.coderality {
+  padding-bottom: 50px;
+ }
+ .logo{
+  display: block;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+.photo-box {
+  width: 100%;
+  border-radius: 4px;
+  margin-left: 70px;
+  transition: all 0.8s ease;
+  margin-right: 70px;
+  margin-bottom: 88px;
+  padding-top: 150px;
+  background-color: white;
+ }
+ .photo-box:hover{
+    box-shadow: 0px 27px 77px 7px rgba(99, 0, 99, 0.27);
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 0.8s ease;
+ }
+ .damian{
+   border-radius: 4px;
+ }
   
  
