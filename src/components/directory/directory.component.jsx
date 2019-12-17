@@ -1,8 +1,5 @@
 import React from 'react';
-
 import MenuItem from '../menu-item/menu-item.component';
-import '../../assets/hats.png';
-import '../../assets/jackets.png';
 import './directory.styles.scss';
 
 class Directory extends React.Component {
