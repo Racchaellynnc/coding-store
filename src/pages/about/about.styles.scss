@@ -57,36 +57,20 @@ form {
     border-radius: 4px;
   }
 
-  @media screen and (max-width: 600px) {
-    .about {
-       margin: auto;
-  }
-     form {
-       width: 300px;
-     } 
-    }
-    input[type=text], select, textarea{
-      height: 10px;
-    
- }
- @media screen and (max-width: 850px){
-   .contact {
-     width: 100%;
-   }
- }
- @media screen and (max-width: 385px) {
-   .contact{
-       margin: auto;
-       position: relative;
-   }
-   form{
-       margin: auto;
-       width: 200px;
-   }
-   .contact {
-     margin: auto;
-   }
-   .portfolio {
+ @media screen and (max-width: 800px) {
+   .about {
      padding: 10px;
+     padding-top: 30px;
+     margin-top: 90px;
+   }
+   form {
+    width: 75%;
+   }
+   .contact {
+     padding: 0;
+   }
+   input[type=text], select, textarea {
+     width: 100%;
+     margin-bottom: 10px;
    }
  }

@@ -7,11 +7,11 @@ import './homepage.styles.scss';
 
 const HomePage = () => (
   <div className='homepage'>
-    <div class="coderality">
+    <div className="coderality">
       {/* <img class="logo" alt='pic' src='../assets/coderality.jpg' /> */}
     </div>
-    <div class="photo-box">
-      <div class="moving-text" >
+    <div className="photo-box">
+      <div className="moving-text" >
       Where we turn Code into Reality.
       </div>
       <Damian className='damian' />

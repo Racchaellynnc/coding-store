@@ -40,7 +40,19 @@
   .test-warning {
     text-align: center;
     margin-top: 40px;
-    font-size: 24px;
+    font-size: 14px;
     color: red;
   }
+}
+@media screen and (max-width: 800px) {
+  .checkout-page{
+     width: 100%;
+  }
+  .header-block{
+    font-size: 10px;
+    width: 100%;
+    padding: 0px;
+  }
+ 
+
 }
