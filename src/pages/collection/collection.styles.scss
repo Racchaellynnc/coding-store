@@ -1,7 +1,8 @@
 .collection-page {
     display: flex;
     flex-direction: column;
-  
+    margin: 20px;
+}
     .title {
       font-size: 38px;
       margin: 0 auto 30px;
@@ -16,4 +17,4 @@
         margin-bottom: 30px;
       }
     }
-  }
+  
