@@ -1,24 +1,25 @@
-import {ReactComponent as Damian } from '../../assets/1111.svg';
+import { ReactComponent as Damian } from '../../assets/1111.svg';
 import React from 'react';
-
+import { HomePageContainer } from './homepage.styles'
 import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
 const HomePage = () => (
-  <div className='homepage'>
-    <div className="coderality">
+
+  <div className="coderality">
+    <HomePageContainer>
       {/* <img class="logo" alt='pic' src='../assets/coderality.jpg' /> */}
-    </div>
+    </HomePageContainer>
     <div className="photo-box">
       <div className="moving-text" >
-      Where we turn Code into Reality.
+        Where we turn Code into Reality.
       </div>
       <Damian className='damian' />
-    
+
     </div>
     <Directory />
-    </div>
+  </div>
 );
 
 export default HomePage;
