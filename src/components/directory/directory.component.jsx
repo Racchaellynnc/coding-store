@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 import './directory.styles.scss';
+import { ReactComponent as Damian } from '../../assets/1111.svg';
 
 class Directory extends React.Component {
   constructor() {
@@ -10,7 +11,7 @@ class Directory extends React.Component {
       sections: [
         {
           title: 'JavaScript Tutorials      ',
-          imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
+          imageUrl: <Damian />,
           id: 1,
           linkUrl: 'hats'
         },
