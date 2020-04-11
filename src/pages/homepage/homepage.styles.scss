@@ -15,10 +15,10 @@
  }
 .photo-box {
   width: 100%;
+  height: auto;
   border-radius: 4px;
- 
   transition: all 0.8s ease;
-  margin-right: 70px;
+  margin-right: 0px;
   margin-bottom: 88px;
   padding-top: 150px;
   background-color: white;
@@ -28,23 +28,22 @@
     transition: all 0.8s ease;
  }
  .damian{
-   border-radius: 4px;
+    width: 100%;
+    border-radius: 4px;
+    float: right;
  }
-
+.damian-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: flex-end;
+}
  @media screen and (max-width: 800px) {
-   .damian{
-  width: 40vw;
-   }
-  .moving-text {
-    font-size: 22px;
-    margin-bottom: -181px;
-  }
+ 
+ .moving-text {
+  font-size: 24px;
+  font-weight: 200;
+}
 
-  .photo-box{
-    margin: 0px;
-    height: 392px;
-    margin-bottom: 30px;
-  }
 }
  
   
