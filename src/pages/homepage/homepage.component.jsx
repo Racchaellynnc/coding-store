@@ -6,7 +6,6 @@ import Directory from '../../components/directory/directory.component';
 import './homepage.styles.scss';
 
 const HomePage = () => (
-
   <div className="coderality">
     <HomePageContainer>
       {/* <img class="logo" alt='pic' src='../assets/coderality.jpg' /> */}
@@ -15,7 +14,6 @@ const HomePage = () => (
       <div className="moving-text">
         Where we turn Code into Reality.
      </div> 
-
       <div class="damian-wrapper">
         <Damian className='damian' />
       </div>

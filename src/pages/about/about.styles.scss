@@ -14,12 +14,13 @@
 }
 .signup{
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 form {
     background-color: #D2BED5;;
     padding: 30px;
-    width: 380px;
+    width: 50%;
+    height: 500px;
     border-radius: 4px;
     margin: auto;
   }
@@ -34,14 +35,17 @@ form {
   
   input[type=text], select, textarea {
     display: flex;
-    width: 325px;
+    width: 90%;
+    margin: auto;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
   }
+textarea {
+  height: 200px;
+}
   input[type=submit] {
     padding: 12px 20px;
     border: none;
@@ -70,8 +74,12 @@ form {
    .contact {
      padding: 0;
    }
+    .text{
+    padding: 15px;
+    margin-bottom: 70px;
+  }
    input[type=text], select, textarea {
-     width: 100%;
+     width: 90%;
      margin-bottom: 10px;
    }
  }

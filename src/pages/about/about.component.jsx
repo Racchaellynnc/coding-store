@@ -5,7 +5,6 @@ const AboutPage = () => (
     <div className='about'>
         <div className='text'> Here at Coderality we focus on teaching Coders the basics of JavaScript, React, Vue, and VR by offering high quality tutorials and courses that are designed for people who have no prior knowledge of programming. Lets get started! </div>
         <div className='signup'>Sign up to get a free shirt!</div>
-        <div className='contact'>
             <form action="https://getsimpleform.com/messages?form_api_token=b8895f4d6999fd03eb1d4bbfeb5dc4a8" method="post">
             <input type='hidden' name='redirect_to' value='https://coderality.com/ThankYou'/>
             <label for="fname">Your Name</label>
@@ -19,8 +18,6 @@ const AboutPage = () => (
 
             <button type="submit" class="btn">Submit</button>
             </form> 
-        </div>
-
     </div>
 )
 

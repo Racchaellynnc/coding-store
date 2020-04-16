@@ -12,6 +12,7 @@ import CheckoutPage from './pages/checkout/checkout.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import AboutPage from './pages/about/about.component';
+import BlogPage from './pages/blog/blog';
 
 class App extends React.Component {
 unsubscribeFromAuth = null;
@@ -45,6 +46,7 @@ componentWillUnmount() {
           <Header />
           <Switch>
             <Route exact path='/' component={HomePage} />
+            <Route exact path='/blog' component={BlogPage} />
             <Route path='/shop' component={ShopPage} />
             <Route path='/about' component={AboutPage} />
             <Route exact path='/checkout' component={CheckoutPage} />
