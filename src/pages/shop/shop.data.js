@@ -12,8 +12,8 @@ const SHOP_DATA = [
       },
       {
         id: 2,
-        name: 'JavaScript Sweater',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AA3KBqF7LEshxeijpjPBMu6sqfEcBIhUUuxrKnC7QrnUfu8SbfHMX2g0GBufHk0FTwd2T3N_kUEMH1W81B8OFgcJoJIQ_HEyfFMVE061sxYBcJwSPakZz6Me0BCTkUefWOrVBd18RH981r9QmfuAFZBWUBuOkxNKlzG3GRipV8d5aXdQZXnwwImK8LsmtzjUVAD64Jk3pz7Xw9tD__T65N7gBZJDagWo2CEcQ9TCUVju5qoNEASAmwa-jREeZERovc9n3fyX1HFkXTh1C05V0Opxyc7_jrE8uaGhAncV4Vj95tVU_gUIDBkmUUfN_uOapJxTWbY1lJBIFbxj4wYY0m4TRWUof5yDfkqeYXtR1CzTBA/p.png?fv_content=true&size_mode=5',
+        name: 'Girls Who Code',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA2cMgv-Ul3dSRpgE0KB3W-KW41lj8hvCFUNwW8IDwxj9Tp5VFz_hyXkzNm-GRt4IEaRtmFgdk_EaKklUYmNKeZkaLg6E00-Yhr8NOSu5jr-Ciypmk-tfI85DovLYOMxUD6BnI7uoegKIXpU1N72caWB9P1wGwo0I5SyByPZJiCCMVHtsvCsRRkuVfV8d0blGzDuFF6ECLKnDx-68CCdnZCrSfoE2uLUdFmYdT9yXPm6EQjRoPiz52RcJXaZLcKs8I8bxo37Mu5mb25r7W8JwZYRifhflyS4Bfa_BOAibYfip69yyD3RFZZhY5PuzIVd2uUJOL30_K1IPYs8SoTstATsXs8ny8u84R9B4C39QM6mtQ/p.png?size=1600x1200&size_mode=3',
         price: 25
       },
       {
