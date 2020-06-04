@@ -5,14 +5,15 @@ import { selectCurrentUser } from './redux/user/user.selectors';
 import './App.css';
 import { createStructuredSelector } from 'reselect';
 import HomePage from './pages/homepage/homepage.component';
+import BlogPage from './pages/blog/blog.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInPage from './pages/signin/signin.component';
 import CheckoutPage from './pages/checkout/checkout.component';
+import BlogListPage from './pages/blog-reading-list/blog-reading-list';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import AboutPage from './pages/about/about.component';
-import BlogPage from './pages/blog/blog';
 
 class App extends React.Component {
 unsubscribeFromAuth = null;
@@ -46,10 +47,11 @@ componentWillUnmount() {
           <Header />
           <Switch>
             <Route exact path='/' component={HomePage} />
-            <Route exact path='/blog' component={BlogPage} />
             <Route path='/shop' component={ShopPage} />
+            <Route path='/blog' component={BlogPage} />
             <Route path='/about' component={AboutPage} />
             <Route exact path='/checkout' component={CheckoutPage} />
+            <Route exact path='/blog-list' component={BlogListPage} />
             <Route
               exact
               path='/signin'

@@ -36,7 +36,7 @@ const CheckoutPage = ({ cartItems, total }) => (
     ))}
     <div className='total'>TOTAL: ${total}</div>
     <div className='test-warning'>
-
+We are currently under construction. Please do not place your order. Thank you for your patience.
     </div>
     <StripeCheckoutButton price={total} />
   </div>

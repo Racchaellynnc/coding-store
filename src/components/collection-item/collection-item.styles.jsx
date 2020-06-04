@@ -4,6 +4,7 @@ import CustomButton from '../buttons/buttons.component';
 export const CollectionItemContainer = styled.div`
   width: 100%;
   display: flex;
+  margin: 0px;
   flex-direction: column;
   height: 350px;
   align-items: center;
@@ -17,7 +18,8 @@ export const CollectionItemContainer = styled.div`
       display: flex;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 650px) {
+   margin: 0px;
    width: 100%;
     &:hover {
       .image {
@@ -36,7 +38,7 @@ export const AddButton = styled(CustomButton)`
   position: absolute;
   top: 255px;
   display: none;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 650px) {
     display: block;
     opacity: 0.9;
     min-width: unset;
@@ -45,8 +47,8 @@ export const AddButton = styled(CustomButton)`
 `;
 
 export const BackgroundImage = styled.div`
-  width: 100%;
-  height: 95%;
+  width: 90%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
@@ -54,11 +56,11 @@ export const BackgroundImage = styled.div`
 `;
 
 export const CollectionFooterContainer = styled.div`
-  width: 100%;
+  width: 80%;
   height: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 22px;
 `;
 
 export const NameContainer = styled.span`

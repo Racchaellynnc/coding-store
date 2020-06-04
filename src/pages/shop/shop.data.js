@@ -1,245 +1,50 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'JavaScript',
-    routeName: 'javascript',
+    title: 'Girl Shirts',
+    routeName: 'sweaters',
     items: [
       {
         id: 1,
-        name: 'JavaScript Basics',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
+        name: 'Gray and Purple Coderality',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA2qDrGKRvFc30sQx1OjRlQ7LL9bwBNqFEfd3j2IOg_1HmiWYl1npIj69xEttwaHJf-gTnrys0lmScxQwk2FVaXArJHfjC9NX7keknoseGq1Bl0YXJdeda6EUI2eBhJvYIQlAEvJQUpica0T2c-UIHtQwpR9BduKwTz3lmJnEdy6D0btHkgt6wDqIA1zb8vtl3nmCle9rA1aTZJPRqUxmiTOPQepU08_U3QoKi-BxO3acqImb6FqaEyf6bOLk2_99h8YwOKHjo8sUG__L4enKmUVtdif27cI3Zq-xi60CCAClS7xsuNnU0DjKBd_R1UeNSaMfhc8fq2vx2q29VvjeYC38opgQfFs4kfKS16lL2B2FA/p.png?fv_content=true&size_mode=5',
+        price: 25
       },
       {
         id: 2,
-        name: 'JavaScript ES6 Arrow Functions',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
+        name: 'JavaScript Sweater',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA3KBqF7LEshxeijpjPBMu6sqfEcBIhUUuxrKnC7QrnUfu8SbfHMX2g0GBufHk0FTwd2T3N_kUEMH1W81B8OFgcJoJIQ_HEyfFMVE061sxYBcJwSPakZz6Me0BCTkUefWOrVBd18RH981r9QmfuAFZBWUBuOkxNKlzG3GRipV8d5aXdQZXnwwImK8LsmtzjUVAD64Jk3pz7Xw9tD__T65N7gBZJDagWo2CEcQ9TCUVju5qoNEASAmwa-jREeZERovc9n3fyX1HFkXTh1C05V0Opxyc7_jrE8uaGhAncV4Vj95tVU_gUIDBkmUUfN_uOapJxTWbY1lJBIFbxj4wYY0m4TRWUof5yDfkqeYXtR1CzTBA/p.png?fv_content=true&size_mode=5',
+        price: 25
       },
       {
         id: 3,
-        name: 'JavaScript Data Types',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
+        name: 'Masked Girl Programmer',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA0AMu4OdJPQx119ewo73Ysu5SsZ2dCg3CUhj3qs0QfzlTee2JsftTY0i47w4tslocyBysm-9yBiqgA6PnW5wGU0T3Z9nYHYDrMFZQ-Js9EIjYGgET7OHgBLFldlRdo82Cs1SZHmbepGrvAYtIJTn1j2LZXK0XE6xXPJoWlJp5X40PdCUPrk5zCjWXzg6x1TI9rdHvcQzQD9bvJ0UV6AlmGd0Zh0Bwk53WgleRW9VU9vsPG7VmUtJeskOq52jo9fHjrmiWw79qmK89xMQMgSJhQVDA6INvuriTvxZOkBeBv9I9PokgoqJ4bUHy84p4UMdz-M7cvCW4OHDBsEjzE-TA8ZdJek_vJBWk4_xRYDTn4f0w/p.png?fv_content=true&size_mode=5',
+        price: 25
       },
-      {
-        id: 4,
-        name: 'JavaScipt Objects',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 5,
-        name: 'JavaScript Loops',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 6,
-        name: 'JavaScript Conditional Statements',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 7,
-        name: 'JavaScript Understanding DOM',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 8,
-        name: 'JavaScript Debugging',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 9,
-        name: 'JavaScript Transitions & Animations',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAk71ykqQeWMTcpicC_-ODj8-2qYm54KBcdB-4-WBpDBiy32j-hjugN0XFgHs5SDsRvEW2woGsZZnzH9vbayMl1q9LwfnKpEYL81q3ldes9khenXL4uGrVQMGCeYtQo5fnlQ8oWt2IFs9AV5zGvrP0kyw3hmFCyV9HWvwL2SrdJI1s7AQdKJL6k4AmwoTHzCmUrG0BDkMCRb7CExg4oeAoc8k68ucYtrgT_GAHFWggN-RwGOiQ0bkaswjZMHeHADLB7Tff1suBBSEkPHmTekt1rpZZH60e84yk9MqSA1DsLsN3gpbHnn_JwdD8VP5ePfXzzLUsZox406kzWG2iU4qsYZ/p.png?fv_content=true&size_mode=5',
-        price: 5
-      }
-    ]
-  },
-  {
-    id: 2,
-    title: 'Vue.JS',
-    routeName: 'vue',
-    items: [
-      {
-        id: 10,
-        name: 'Vue Basics',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 11,
-        name: 'Vue Router',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 12,
-        name: 'Vue CLI',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 13,
-        name: 'Vue Directives',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 14,
-        name: 'Vue Computed Properties',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 15,
-        name: 'Vue X',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 16,
-        name: 'Vue and Firebase',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 190
-      },
-      {
-        id: 17,
-        name: 'Vue Transitions & Animations',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAn4lZFluW_2DuHzWH7obb0MyUa4S8rShyYJMioM-7r4yLBFyYI22rvmyHbsisj4fivDLT4FZUdmS8KM5A77kNhArG46h5_RaoaJK8DncGaSlqPhUMFXanyHVlZfY2cgRFMxXBwlquzzYF_kbyfncBEr4XcIDxGUtWmaPW5xD8rQRSYZoUyUUePA3BSA6ekgMYFCkqlyMrU4ykv2z1gyUubClfMkxRtcVyoqjzWyzrZR4iQQRrhEOm_3mnHFpaCvAnUw97kAiKZiQ1nKgPKSFoAs0Hkv4lv0UWLIWklfQ_VQ8tjx7qt6F7MPdgmMkoJ25YQP0rzHXA1iteqFZLwZAQAn/p.png?fv_content=true&size_mode=5',
-        price: 200
-      }
-    ]
-  },
-  {
-    id: 3,
-    title: 'React.JS',
-    routeName: 'react',
-    items: [
-      {
-        id: 18,
-        name: 'React Basics',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 19,
-        name: 'React Components',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 20,
-        name: 'React Redux',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 21,
-        name: 'React Router',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
-        price: 5
-      },
-      {
-        id: 22,
-        name: 'React Hooks',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAklF59RY_DcX_Sjh2OhqzKHHD_q8VF64N68Z-FewbyZA37NX8HztFKjLuH9OtP5SD7kQBq77KbH5dEZgZfVa18j3SeuriDUb_G5-4XZgw3I1VzQv3HwXM3goMFyvMjny32IweKpWrclqmDsElrw_2NmApRIXsMYpFh4K3X6FpWWq9nApfXdLks2gx1ZwvydorL62BIUjGE6mrE5lR9dLYSuRRJ1TCpOc6fvJqZz9Yc3KspIh8lEDQwl0pkPg9wdDOAD-K2ydRztnnoCLRbd0SrAntmhxJoLqMDy93Woe0CmAbbC3ACjmhpa3E3oVG3sTavSVy_KnHWIKwLDQd2Oxd9W/p.png?fv_content=true&size_mode=5',
-        price: 5
-      }
     ]
   },
   {
     id: 4,
-    title: 'Full-Stack Courses',
-    routeName: 'fullstack',
-    items: [
-      {
-        id: 23,
-        name: 'React, Node, Firebase, and GraphQL',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 25
-      },
-      {
-        id: 24,
-        name: 'Vue, Node, Express, and Mongo',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 20
-      },
-      {
-        id: 25,
-        name: 'Angular, Node, and Firebase',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 80
-      },
-      {
-        id: 26,
-        name: 'Python and DJango',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 80
-      },
-      {
-        id: 27,
-        name: 'JavaScript, Node, HTML, SQL and CSS',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 45
-      },
-      {
-        id: 28,
-        name: 'Laravel and Vue',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 135
-      },
-      {
-        id: 29,
-        name: 'Spring and Angular',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAng81-yTtEt2Cu1-B3avFHYa2Qa4w0zy0V9bKqWbmlxZEDAxbTPGrlTlBbatq2lkzHYd_oHwPl7S2b5EMVIEukWjrmpFkdveI1tCAkrBac0WkEgOnkX22DW8auEOGgXFVIlY2wb7VVbrFNBnDMFAV-TtpTAW9Tdm9R5ZAVqEstAmJfGapR8sW0drxXANmMJfKuUpUI9tvr9-QqW1FH3TEAVJ9Sih1aTDmzTvVMPcy-Tm-lGVcGef8dbySi0u5J1odR3YXv7rr5HNm1NdVRLMra27Y5nP_PvrRAFdKtzLBf4-gA4b3Q5jlBu4KdAHsJyQhMU5B_vSvY14FBXhTq00TmX/p.png?fv_content=true&size_mode=5',
-        price: 20
-      }
-    ]
-  },
-  {
-    id: 5,
-    title: 'Programming T-Shirts',
+    title: 'Boy Shirts',
     routeName: 'tshirts',
     items: [
       {
         id: 30,
-        name: 'I know HTML',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
-        price: 325
+        name: 'Masked Programmer',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA3VKy06KWPkWSvV55ePvtslbnwWgamM8XQ3Tb72vr8cdvLnAdRov5_utRfsbJMKdgXWM2NzCG-GXJ9bu_85CyxsfnMGiFtWPPmOAMGa0SnFNhZ3fmDXJwHtBucAcHRF5snJK56iQLkrv0bLOd0ckofCqmolbeoDPPmOozO7iy28trzAuAfYYdDLlJO6BR1Hr6MuvCFu7JII8_s8gVoA18t2nXziApqVc2FnczK0e7Lw2xL6yM3hK7oREiiySkqUHRZSWVO3CGZtL-wjl4L0_jGXyM9P5P9pys9VVr2y2XX5Xk-9k9lsaBn80KjbDtA2DMJH_ExJ1XcV53rrZxzmozX3om6D72iBOECHh2uS-rm1Fg/p.png?fv_content=true&size_mode=5',
+        price: 25
       },
       {
         id: 31,
-        name: 'Turn Coffee into Code',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
-        price: 20
+        name: 'Cloud TShirt',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA2yhe8MjRpmtyqhRyfBuyliRh_BgA75w0jFmBiNSTCEA-6F8CMZhXGaCU1ussttILKR4faKT2RG_OI2PHBDBArl9X1OvhIizmBuqRTDgXePH37gNbAAQxUQ8KbtMJfK_h74yLiQNUGMxfsJvfrNBUD1Dm6CfgQGcF64uXvDiIwzq_ff4qK0a5ODL5LoNm5ZQoKzJfvNTtKBkRnGSxE6vxL4EXbzOiSa-bhuE1NIKBmh3sgYPTSSUtXvC2kRKtB4RguhimyV1i1ShayENVOY-L633HM98-tjjb8tF8QF-TDvmqvfynWLkhqvdoHr2uqZsQePTsYmx4m5H2HlRBqHd4lNL60co4vhm_Y-vY-H5xCSRQ/p.png?fv_content=true&size_mode=5',
+        price: 25
       },
       {
         id: 32,
-        name: 'Coderality',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
-        price: 25
-      },
-      {
-        id: 33,
-        name: 'JavaScript',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
-        price: 25
-      },
-      {
-        id: 34,
-        name: 'Sudo Make me A Sandwich',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
-        price: 40
-      },
-      {
-        id: 35,
-        name: 'Eat Sleep Code Repeat',
-        imageUrl: 'https://previews.dropbox.com/p/thumb/AAmIGkGcCbbCNBOdqz2UmlohIl8EUK0s4l9ZnFK_JUbAh7uiIr0gvBFHWHPgza0_FgozqfaA6giT7bew1Pa6tNO1s6_vlmhsFMdfyuXwJNPe75rIOJ-hHzaMOKyTioNyXlZv2MAHosXbfvL4eDnj73t-3mMOTRTsG8XIEtYo4K0H5pSZL1GZsNKFFz2q95qbIaWS-2TcbOIET-i51VZCS5-97ndWppAZi9SriphyZ0M1xqQ9twQjzxL4uE2BzClcT7YuqZvkoPo6Qlw55BS0avEh25ngnMwKnb3R2vlCj9KAhJXy6dHNH9mNEVayCZ0oTS3TXRyeLoVaUITKyg7_-BWS/p.png?fv_content=true&size_mode=5',
+        name: 'Coderality in Green',
+        imageUrl: 'https://previews.dropbox.com/p/thumb/AA28RRFYkbSdUCd3jMPWpim-Pu8MJrVgOx7Ydz92IkHmbGOId2pvtoydlQmc4lbVk6ELDta8AAIgcGbjTRzrrF5PBEXiR_fFxNVh2HFKcv2OJM1FC-rUnLLleOrp_Cpwg9rxLnhrxqKNfFfBibjyn6cTDzULBOuvj3tS2TBpG6McVzz3iC5pfO0MgaJYrQ11V9fkL7U86mjgpT_L1z2Q6NU3RZ137pAo42JtLk57SqjY3L8L4qP6EkLQ9qcWuS5voyJN69ZMxRp7c1KrtvaL8ALia0agvqoWfSeif_oC0IJHWaRMfVVmgQ4umOvuJmcOigQV2DCGXxzGz1ayeyVIA54vpEuHjLf1UTBvy6XvUue-aQ/p.png?fv_content=true&size_mode=5',
         price: 25
       }
     ]

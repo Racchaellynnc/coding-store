@@ -1,4 +1,4 @@
-import { ReactComponent as Damian } from '../../assets/damian.svg';
+import { ReactComponent as Damian } from '../../assets/damian444.svg';
 import React from 'react';
 import { HomePageContainer } from './homepage.styles'
 import Directory from '../../components/directory/directory.component';
@@ -14,7 +14,7 @@ const HomePage = () => (
       <div className="moving-text">
         Where we turn Code into Reality.
      </div> 
-      <div class="damian-wrapper">
+      <div className="damian-wrapper">
         <Damian className='damian' />
       </div>
     </div>

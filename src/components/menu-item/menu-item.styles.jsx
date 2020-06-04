@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const MenuItemContainer = styled.div`
-	height: ${({ size }) => (size ? '380px' : '240px')}
+	height: ${({ size }) => (size ? '580px' : '440px')}
 	min-width: 30%;
 	overflow: hidden;
 	flex: 1 1 auto;
+  background-color: white;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -37,9 +38,9 @@ export const MenuItemContainer = styled.div`
 export const BackgroundImageContainer = styled.div`
   width: 100%;
   height: 100%;
-  background-size: cover;
+background-size: auto;
   background-position: center;
-  display: none;
+  
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
   @media screen and (max-width: 800px) {
     display: flex;

@@ -1,0 +1,49 @@
+.code {
+    background-color: #355c7d;
+    color: #f8b195;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.image-container{
+    height: 555px;
+    width: 100%;
+    margin: auto;
+    background-image: url('../../../../assets/rn.png');
+}
+.image-container2{
+    height: 555px;
+    width: 100%;
+    margin: auto;
+    background-image: url('../../../../assets/food.png');
+}
+.image-container3{
+    height: 555px;
+    width: 100%;
+    margin: auto;
+    background-image: url('../../../../assets/supple.png');
+}
+.text-heading {
+    padding: 30px;
+    color: black;
+    font-weight: 500;
+}
+.small-intro{
+    font-style: italic;
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+ @media screen and (max-width: 850px) {
+    .content {
+      margin: auto;
+      width: 90%;
+      margin-top: 10px;
+  }
+    .buttons{
+    flex-direction: row;
+        flex-wrap: wrap;
+  }
+ }

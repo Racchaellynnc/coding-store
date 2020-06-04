@@ -1,0 +1,12 @@
+  .sign-in-and-sign-up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ @media screen and (max-width: 1050px) {
+  .sign-in-and-sign-up {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+ }
