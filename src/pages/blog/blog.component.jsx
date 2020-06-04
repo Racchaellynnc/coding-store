@@ -17,12 +17,12 @@ class BlogPage extends React.Component {
     const { collections } = this.state;
     return (
       <div className='shop-page'>
-        <div className="warning">
-            Our blog is Under Construction at the moment. Thank you for your patience.
-        </div>
         {collections.map(({ id, ...otherCollectionProps }) => (
           <BlogPreview key={id} {...otherCollectionProps} />
         ))}
+        <div className="test-warning">
+            Our blog is Under Construction at the moment. Thank you for your patience.
+        </div>
       </div>
     );
   }
