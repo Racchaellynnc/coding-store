@@ -9,11 +9,9 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-
   @media screen and (max-width: 800px) {
-    height: 60px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
     font-size: 10px;
   }
 `;
@@ -23,9 +21,7 @@ export const LogoContainer = styled(Link)`
   padding: 0px;
   margin-top: -50px;
   @media screen and (max-width: 800px) {
-    width: 50px;
-    padding: 0;
-    font-size: 10px;
+    display: none;
   }
 `;
 
@@ -36,11 +32,17 @@ export const OptionsContainer = styled.div`
   align-items: center;
   justify-content: flex-end;
   @media screen and (max-width: 800px) {
-    width: 80%;
+    width: 100%;
+    margin-top: -25px;
   }
 `;
 
 export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  text-decoration: none;
+  color: #222;
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;

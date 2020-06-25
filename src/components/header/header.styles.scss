@@ -30,7 +30,6 @@
 
   @media screen and (max-width: 800px) {
       .header {
- 
         height: 60px;
         padding: 10px;
         margin-bottom: 20px;
@@ -41,10 +40,12 @@
       }
       .option{
         width: 80%;
+        display: flex;
       }
       .logo {
           width: 400px;
-          padding: 0px;
+          padding: 0px; 
+          display: none;
       }
 
   }
