@@ -14,6 +14,10 @@ import BlogListPage from './pages/blog-reading-list/blog-reading-list';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import AboutPage from './pages/about/about.component';
+import MobileBlogReactNative from './pages/categories/mobile-developement/blog-pages/react-native';
+import JSBlogPage from './pages/categories/js-developement/js-developement';
+import AwsSecurity from './pages/categories/cloud/aws-security';
+
 
 class App extends React.Component {
 unsubscribeFromAuth = null;
@@ -46,6 +50,10 @@ componentWillUnmount() {
         <Router>
           <Header />
           <Switch>
+
+            <Route exact path='/aws-security' component={AwsSecurity} />
+            <Route exact path='/javascript' component={JSBlogPage} />
+            <Route exact path='/reactnative' component={MobileBlogReactNative} />
             <Route exact path='/' component={HomePage} />
             <Route path='/shop' component={ShopPage} />
             <Route path='/blog' component={BlogPage} />

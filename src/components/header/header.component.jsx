@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
-import BlogDropdown from '../blog-dropdown/blog-dropdown.component';
+// import BlogDropdown from '../blog-dropdown/blog-dropdown.component';
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
-import BookIcon from '../blog-icon/blog-icon.component';
+// import BookIcon from '../blog-icon/blog-icon.component';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 import {
 	HeaderContainer,
