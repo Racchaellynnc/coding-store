@@ -2,116 +2,138 @@
 const BLOG_DATA = [
   {
     id: 1,
-    title: 'Web Developement',
+    category: 'Web Developement',
     routeName: 'javascript',
     blogs: [
       {
         id: 1,
-        name: 'JavaScript Frameworks',
+        title: 'JavaScript Frameworks',
         imageUrl: 'https://i.postimg.cc/y6fr4btL/javascript-frameworks.png',
         link: '/javascript',
-        excerpt: 'blah blah blah'
+        excerpt: 'JavaScript has evolved in many ways over the last few years. There are so many frameworks to choose from now that it can be a challenge to figure out which one you want to use.'
 
       },
       {
         id: 2,
-        name: 'Algorithms & Data Structure',
+        title: 'Algorithms & Data Structure',
         imageUrl: 'https://i.postimg.cc/R0rDpJy9/javascript-algorithms.png',
-        
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 3,
-        name: 'TypeScript',
+        title: 'TypeScript',
         imageUrl: 'https://i.postimg.cc/SsG8FHKV/Type-Script.png',
-        price: 5
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 4,
-        name: 'Debugging',
+        title: 'Debugging',
         imageUrl: 'https://i.postimg.cc/7hLsJ3G1/javascript-debugging.png',
-        price: 15
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
     ]
   },
   {
     id: 2,
-    title: 'Cloud Technology',
+    category: 'Cloud Technology',
     routeName: 'aws',
     blogs: [
       {
         id: 10,
-        name: 'AWS KMS, SSM Parameters, Security & Encryption ',
-        imageUrl: 'https://i.postimg.cc/3RYbY53c/binary.png',
-        price: 10,
-        // link: '/aws-security'
+        title: 'AWS KMS, SSM Parameters, Security & Encryption ',
+        imageUrl: 'https://i.postimg.cc/q7Ymncvr/aws-encryption.png',
+        link: '/aws-security',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 11,
-        name: 'AWS CLI, EC2, ASG, SDK, IAM Roles and VPC',
+        title: 'AWS CLI, EC2, ASG, SDK, IAM Roles and VPC',
         imageUrl: 'https://i.postimg.cc/zGJb1DC2/cloud1.png',
-        price: 10
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 12,
-        name: 'S3 and Elastic Beanstalk',
+        title: 'S3 and Elastic Beanstalk',
         imageUrl: 'https://i.postimg.cc/VLVTMVFJ/beanstalk.png',
-        price: 10
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+        
       },
       {
         id: 13,
-        name: 'AWS ECS, ECR, Fargate and Docker',
+        title: 'AWS ECS, ECR, Fargate and Docker',
         imageUrl: 'https://i.postimg.cc/vZxKvtP3/cloud-tech.png',
-        price: 15
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+        
       },
       {
         id: 14,
-        name: 'AWS CI/CD',
+        title: 'AWS CI/CD',
         imageUrl: '',
-        price: 15
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 15,
-        name: 'CloudFormation',
+        title: 'CloudFormation',
         imageUrl: '',
-        price: 15
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
       {
         id: 16,
-        name: 'AWS Integration, SQS, SNS, Kinesis',
+        title: 'AWS Integration, SQS, SNS, Kinesis',
         imageUrl: '',
-        price: 10 
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
+
       },
     ]
   },
   {
     id: 3,
-    title: 'Mobile Developement',
+    category: 'Mobile Developement',
     routeName: 'mobile',
     blogs: [
       {
         id: 23,
-        name: 'React Native',
+        title: 'React Native',
         imageUrl: 'https://i.postimg.cc/FFCQm4K6/react-native.png',
-        price: 5,
-        // link: '/reactnative'
+        link: '/reactnative',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
       },
       {
         id: 24,
-        name: 'IOS Swift',
+        title: 'IOS Swift',
         imageUrl: 'https://i.postimg.cc/0NKC67Gm/swift.png',
-        price: 5
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
       },
       {
         id: 25,
-        name: 'Flutter and Dart',
+        title: 'Flutter and Dart',
         imageUrl: 'https://i.postimg.cc/Df9ns6Py/flutter-dart.png',
-        price: 80
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
       },
       {
         id: 26,
         name: 'Android',
         imageUrl: 'https://i.postimg.cc/7ZWjSYg8/android-development.png',
-        price: 80
+        link: '/javascript',
+        excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium quam vulputate dignissim suspendisse. Nulla facilisi cras fermentum odio.'
       }
     ]
   }

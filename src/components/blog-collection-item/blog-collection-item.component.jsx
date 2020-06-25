@@ -6,17 +6,22 @@ import {
   BlogItemContainer,
   BlogFooterContainer,
   BackgroundImage,
-  NameContainer,
+  TitleContainer,
+  BlogPostLink,
+  ExcerptContainer
 } from './blog-collection-item.styles';
 
 const BlogCollectionItem = ({ blog}) => {
-  const { name, imageUrl } = blog;
+  const { title, imageUrl, link, excerpt } = blog;
 
   return (
     <BlogItemContainer classname="container-item">
       <BackgroundImage className='image' imageUrl={imageUrl} />
       <BlogFooterContainer>
-        <NameContainer>{name}</NameContainer>
+        <BlogPostLink className="blog-post-link" to={link}>
+            <TitleContainer>{title}</TitleContainer>
+            <ExcerptContainer>{excerpt}</ExcerptContainer>
+        </BlogPostLink>
       </BlogFooterContainer>
     </BlogItemContainer>
   );
