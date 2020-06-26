@@ -2,7 +2,16 @@
   font-size: 44px;
   position: absolute;
   margin-top: 111px;
+  color: white;
+  font-weight: 300;
 }
+.code-intro{
+  background-color: #7cff7ca1;
+  height: 800px;
+  width: 90%;
+  border-radius: 4px;
+}
+
 .moving-text {
   text-align: center;
   font-size: 24px;
@@ -10,7 +19,7 @@
   text-align: center;
   font-weight: 200;
   margin-top: 45px;
-  margin-bottom: 55px;
+  margin-bottom: 5px;
 }
 .moving-text-1 {
   text-align: center;
@@ -19,7 +28,7 @@
   text-align: center;
   font-weight: 200;
   margin-top: 45px;
-  margin-bottom: 55px;
+  margin-bottom: 5px;
 }
 .coderality {
   padding-bottom: 50px;
@@ -43,8 +52,9 @@
  }
 .photo-box1 {
   width: 44%;
-  height: 600px;
-  background-color: white;
+  height: 444px;
+  color: white;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -52,8 +62,10 @@
  }
 .photo-box2 {
   width: 44%;
-  height: 600px;
-  background-color: white;
+  height: 444px;
+  background-color: #7cff7ca1;
+  color: white;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -61,7 +73,6 @@
  }
  .brain-optimization {
    width: 100%;
-   border-radius: 4px;
    float: left;
  }
 
@@ -91,7 +102,7 @@
    width: 100%;
  }
  .code-intro{
-   width: 333%;
+   width: 100%;
  }
  .moving-text {
     position: absolute;

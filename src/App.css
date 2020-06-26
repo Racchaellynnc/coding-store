@@ -1,7 +1,7 @@
 body {
   font-weight: 200;
   padding: 20px 0px;
-  background-color: #F8F8F8;
+  background-color: #385b7a;
 }
 .menu-bars {
   width: 30px;
@@ -13,9 +13,7 @@ body {
   z-index: 5;
   display: none;
 }
-li {
-  padding: 40px 40px;
-}
+
 button {
   font-size: 30px;
   margin-right: 30px;
@@ -26,6 +24,7 @@ button {
   outline: none;
 }
 .links {
+  padding: 40px 40px;
   display: none;
 }
  

@@ -10,9 +10,9 @@ const HomePage = () => (
       <div className="intro-message">
         Where We Turn Code Into Reality
       </div> 
-      <img src="https://i.postimg.cc/MTTDxMpc/binary-1.png" alt="code" className='code-intro'></img>
+      <div  className='code-intro'></div>
     </div>
-    <div className="photo-box">
+    {/* <div className="photo-box">
       <div className="photo-box1" >
         <div className="moving-text-1">
           Find Inspiration to make coding fun for you. <br></br>
@@ -28,8 +28,8 @@ const HomePage = () => (
           <div className="damian-wrapper">
             <Damian className='damian' />
           </div>
-        </div>
-    </div>
+        </div> 
+    </div>*/}
     <Directory />
   </div>
 );

@@ -19,7 +19,7 @@ export const HeaderContainer = styled.div`
 export const LogoContainer = styled(Link)`
   width: 555px;
   padding: 0px;
-  margin-top: -50px;
+  margin-top: -120px;
   @media screen and (max-width: 800px) {
     display: none;
   }
@@ -40,8 +40,9 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  font-weight: 300;
   text-decoration: none;
-  color: #222;
+  color: #7cff7c;
   @media screen and (max-width: 800px) {
     display: none;
   }
