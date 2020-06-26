@@ -1,3 +1,8 @@
+.intro-message{
+  font-size: 44px;
+  position: absolute;
+  margin-top: 111px;
+}
 .moving-text {
   text-align: center;
   font-size: 24px;
@@ -14,7 +19,7 @@
   text-align: center;
   font-weight: 200;
   margin-top: 45px;
-  margin-bottom: 35px;
+  margin-bottom: 55px;
 }
 .coderality {
   padding-bottom: 50px;
@@ -37,7 +42,7 @@
   margin-bottom: 88px;
  }
 .photo-box1 {
-  width: 47%;
+  width: 44%;
   height: 600px;
   background-color: white;
   display: flex;
@@ -46,7 +51,7 @@
   margin-right: 10px;
  }
 .photo-box2 {
-  width: 47%;
+  width: 44%;
   height: 600px;
   background-color: white;
   display: flex;
@@ -76,6 +81,7 @@
  @media screen and (max-width: 800px) {
  .photo-box{
     flex-direction: column;
+    margin-bottom: 40px;
  }
  .photo-box1{
    width: 100%;
@@ -84,10 +90,18 @@
  .photo-box2{
    width: 100%;
  }
+ .code-intro{
+   width: 333%;
+ }
  .moving-text {
     position: absolute;
     margin-top: -333px;
     padding-bottom: 55px;
+  }
+  .intro-message{
+    margin-top: 22px;
+    margin-left: 22px;
+    font-size: 33px;
   }
   .moving-text-1 {
     margin-top: -333px;
