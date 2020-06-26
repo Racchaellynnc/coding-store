@@ -1,12 +1,25 @@
 .moving-text {
   text-align: center;
-  font-size: 44px;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
   font-weight: 200;
+  margin-top: 45px;
+  margin-bottom: 55px;
+}
+.moving-text-1 {
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 45px;
+  margin-bottom: 35px;
 }
 .coderality {
   padding-bottom: 50px;
  }
- .logo{
+.logo{
   display: block;
   padding-top: 20px;
   margin-left: auto;
@@ -14,36 +27,73 @@
   width: 50%;
  }
 .photo-box {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: auto;
   border-radius: 4px;
   transition: all 0.8s ease;
-  margin-right: 0px;
+  margin: auto;
+  justify-content: center;
   margin-bottom: 88px;
-  padding-top: 150px;
+ }
+.photo-box1 {
+  width: 47%;
+  height: 600px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 10px;
  }
- .photo-box:hover{
-    box-shadow: 0px 6px 12px 5px rgba(99, 0, 99, 0.27);
-    transition: all 0.8s ease;
+.photo-box2 {
+  width: 47%;
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 10px;
  }
- .damian{
-    width: 100%;
-    border-radius: 4px;
-    float: right;
+ .brain-optimization {
+   width: 100%;
+   border-radius: 4px;
+   float: left;
+ }
+
+.damian{
+  width: 100%;
+  border-radius: 4px;
+  float: right;
  }
 .damian-wrapper {
   display: flex;
   flex-direction: column-reverse;
   align-content: flex-end;
 }
- @media screen and (max-width: 800px) {
- 
- .moving-text {
-  font-size: 24px;
-  font-weight: 200;
+.optimization-wrapper {
+  display: flex;
 }
-
+ @media screen and (max-width: 800px) {
+ .photo-box{
+    flex-direction: column;
+ }
+ .photo-box1{
+   width: 100%;
+   margin-bottom: 40px;
+ }
+ .photo-box2{
+   width: 100%;
+ }
+ .moving-text {
+    position: absolute;
+    margin-top: -333px;
+    padding-bottom: 55px;
+  }
+  .moving-text-1 {
+    margin-top: -333px;
+    padding-bottom: 55px;
+    position: absolute;
+    }
 }
  
   

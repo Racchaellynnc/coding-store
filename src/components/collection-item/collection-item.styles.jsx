@@ -36,7 +36,7 @@ export const AddButton = styled(CustomButton)`
   width: 80%;
   opacity: 0.7;
   position: absolute;
-  top: 255px;
+  top: 225px;
   display: none;
   @media screen and (max-width: 650px) {
     display: block;
@@ -58,6 +58,7 @@ export const BackgroundImage = styled.div`
 export const CollectionFooterContainer = styled.div`
   width: 80%;
   height: 5%;
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   font-size: 22px;

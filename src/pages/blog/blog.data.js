@@ -7,7 +7,7 @@ const BLOG_DATA = [
     blogs: [
       {
         id: 1,
-        title: 'JavaScript Frameworks',
+        title: 'What JavaScript Frameworks Should You Choose?',
         imageUrl: 'https://i.postimg.cc/y6fr4btL/javascript-frameworks.png',
         link: '/javascript',
         excerpt: 'JavaScript has evolved in many ways over the last few years. There are so many frameworks to choose from now that it can be a challenge to figure out which one you want to use.'

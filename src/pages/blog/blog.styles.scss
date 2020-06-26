@@ -1,15 +1,21 @@
 .warning{
-text-align: center;
-margin:77px;
-margin-top: 33px;
+  text-align: center;
+  margin:77px;
+  margin-top: 33px;
 }
-  .test-warning {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 18px;
-    color: red;
+.test-warning {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+  color: red;
   }
 .shop-page{
   margin-left: 50px;
   margin-right: 50px;
+}
+@media screen and (max-width: 800px) {
+  .shop-page{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
