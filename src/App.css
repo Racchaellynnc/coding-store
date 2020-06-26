@@ -5,7 +5,7 @@ body {
 }
 .menu-bars {
   width: 30px;
-  color:#A290B2;
+  color:#6fd985;
   float: left;
   position: absolute;
   left: 20px;
@@ -37,7 +37,7 @@ button {
  
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .show-nav .links {
     display: flex; 
@@ -47,13 +47,13 @@ button {
   }
   .menu-bars {
     display: flex;
-    color: #A290B2;
+    color: #6fd985;
   }
   .show-nav  {
     height: 100vh;
     width: 200px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #385B7A;
     border: 0.5px solid #A290B2;
     display: flex;
     flex-direction: column;

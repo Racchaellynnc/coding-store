@@ -39,6 +39,7 @@ class SignIn extends React.Component {
   render() {
     return (
       <div className='sign-in'>
+        <h2 className="title"><b>Welcome Back</b> </h2>
         <span className="title">Sign in with your email or google account</span>
 
         <form onSubmit={this.handleSubmit}>

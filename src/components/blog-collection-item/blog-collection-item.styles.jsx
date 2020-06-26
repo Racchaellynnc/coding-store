@@ -7,7 +7,7 @@ export const BlogItemContainer = styled.div`
   display: flex;
   margin-bottom: 40px;
   flex-direction: column;
-  height: 550px;
+  height: 500px;
   align-items: center;
   position: relative;
   transition: 0.2s ease-out;
@@ -54,7 +54,6 @@ export const BackgroundImage = styled.div`
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
-
   transition: 0.2s ease-in-out;
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
@@ -62,12 +61,15 @@ export const BackgroundImage = styled.div`
 export const BlogFooterContainer = styled.div`
   width: 80%;
   background-color: white;
-  margin-top: -20px;
+  margin-top: -133px;
   height: auto;
   display: flex;
   justify-content: space-between;
   font-size: 22px;
   border: .5px solid rgb(197, 197, 197);
+  @media screen and (max-width: 1000px) {
+    margin-top: -111px;
+  }
 `;
 
 export const TitleContainer = styled.span`

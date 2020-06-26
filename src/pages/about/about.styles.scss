@@ -1,29 +1,29 @@
 .about{
     border-radius: 4px;
     background-color: none;
-    padding: 250px;
+    padding: 200px;
     margin: auto;
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 200;
-    color: #444;
+    color: white;
     margin: 10px;
 }
 .text{
     margin-bottom: 140px;
 }
-.signup{
+.signup {
     text-align: center;
     margin-bottom: 50px;
 }
 form {
-    background-color: #8B75A0;
+    background-color: #6fd985;
     color: white;
     padding: 30px;
-    width: 50%;
+    width: 100%;
     border-radius: 4px;
     margin: auto;
   }
-  .contact {
+.contact {
     border-radius: 4px;
     box-shadow: 0px 27px 77px 7px rgba(99, 0, 99, 0.22);
     width: 100%;
@@ -35,6 +35,7 @@ form {
   input[type=text], select, textarea {
     display: flex;
     width: 90%;
+    outline: none;
     margin: auto;
     padding: 12px;
     border: 1px solid #ccc;
@@ -43,37 +44,39 @@ form {
     margin-bottom: 16px;
   }
 textarea {
-  height: 200px;
+    height: 200px;
+    outline: none;
 }
-  input[type=submit] {
+input[type=submit] {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  .btn{
+}
+input[type=submit]:hover {
+    background-color: #a4f2b4;
+    outline: none;
+}
+.btn{
     color: white;
     background-color: #444;
     padding: 10px;
     border-radius: 4px;
-  }
+}
 
  @media screen and (max-width: 800px) {
-   .about {
-     padding: 10px;
-     padding-top: 30px;
-     margin-top: 90px;
+  .about {
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 90px;
    }
-   form {
+  form {
     width: 75%;
    }
-   .contact {
+  .contact {
      padding: 0;
    }
-    .text{
+  .text{
     padding: 15px;
     margin-bottom: 70px;
   }
@@ -82,3 +85,8 @@ textarea {
      margin-bottom: 10px;
    }
  }
+ @media screen and (min-width: 1000px) {
+  form {
+      width: 60%;
+    }
+  }

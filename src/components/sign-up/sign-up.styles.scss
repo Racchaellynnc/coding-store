@@ -5,7 +5,7 @@
 
 form{
   width: 70%;
-  background-color: #8B75A0;
+  background-color: #6FD985;
   color: white;
 }
 
@@ -13,6 +13,21 @@ form{
   margin: auto;
   text-align: center;
   padding: 20px;
+  color: white;
   display: flex;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sign-up{
+    margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sign-up{
+    margin-bottom: 30px;
+    width: 100%;
+    margin: auto;
   }
 }
