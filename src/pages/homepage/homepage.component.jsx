@@ -1,19 +1,31 @@
-import { ReactComponent as Damian } from '../../assets/damian444.svg';
 import React from 'react';
 import Directory from '../../components/directory/directory.component';
-
+import {ReactComponent as Damian} from '../../assets/damian444.svg';
+import {ReactComponent as BackgroundSvg} from '../../assets/Page1.svg';
+import {ReactComponent as BackgroundSvg2} from '../../assets/Page2.svg';
+import {ReactComponent as BackgroundSvg3} from '../../assets/Page3.svg';
 import './homepage.styles.scss';
 
 const HomePage = () => (
   <div className="coderality">
-    <div className="photo-box">
+    <div>
+      <BackgroundSvg className="photo-background" />
       <div className="intro-message">
         Where We Turn Code Into Reality
       </div> 
-      <div  className='code-intro'></div>
     </div>
-    {/* <div className="photo-box">
-      <div className="photo-box1" >
+    <div>
+      <BackgroundSvg2 className="photo-background2" />
+      <div className="intro-message">
+      </div> 
+    </div>
+    <div>
+      <BackgroundSvg3 className="photo-background3" />
+      <div className="intro-message">
+      </div> 
+    </div>
+    <div className="photo-box">
+      {/* <div className="photo-box1" >
         <div className="moving-text-1">
           Find Inspiration to make coding fun for you. <br></br>
         </div> 
@@ -28,8 +40,8 @@ const HomePage = () => (
           <div className="damian-wrapper">
             <Damian className='damian' />
           </div>
-        </div> 
-    </div>*/}
+        </div>  */}
+    </div>
     <Directory />
   </div>
 );

@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
 
 const buttonStyles = css`
-  background-color: #459b5f;
-  color: white;
+  background-color: #78EB88;
+  color: black;
   border: none;
   text-decoration: none;
   padding-left: 15px;
