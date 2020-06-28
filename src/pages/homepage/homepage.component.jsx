@@ -27,20 +27,22 @@ const HomePage = () => (
     <div className="photo-box">
       {/* <div className="photo-box1" >
         <div className="moving-text-1">
-          Find Inspiration to make coding fun for you. <br></br>
+          Co&middot;der&middot;al&middot;ity <br></br>
+          <div className="small-text">&#47;Code-er&#47;al-i-tee&#47;</div>
+          <div className="smaller-text">noun</div>
         </div> 
         <div className="optimization-wrapper">
-          <img src="https://i.postimg.cc/dQbmKvVs/computer-1.png" alt="brain-optimization" className='brain-optimization'></img>
         </div>
       </div>
         <div className="photo-box2">
-          <div className="moving-text">
+          {/* <div className="moving-text">
             Learn about the Latest VR and AR tech.
           </div> 
           <div className="damian-wrapper">
             <Damian className='damian' />
-          </div>
-        </div>  */}
+          </div> */}
+          
+        {/* </div>   */}
     </div>
     <Directory />
   </div>

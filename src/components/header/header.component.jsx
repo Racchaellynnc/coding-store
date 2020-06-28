@@ -13,11 +13,12 @@ import {
 const Header = ({ currentUser, hidden }) => (
 	<HeaderContainer>
 		<LogoContainer to='/'>
+			<img src="https://i.postimg.cc/4yphttYw/logo.png" alt="logo" class="logo"></img>
 		</LogoContainer>
 		<OptionsContainer>
 			<OptionLink to='/shop'>SHOP</OptionLink>
 			<OptionLink to='/blog'>BLOG</OptionLink>
-			<OptionLink to='/about'>ABOUT US</OptionLink>
+			<OptionLink to='/about'>ABOUT</OptionLink>
 			{currentUser ? (
 				<OptionLink as='div' onClick={() => auth.signOut()}>
 					SIGN OUT

@@ -4,6 +4,7 @@ const buttonStyles = css`
   background-color: #78EB88;
   color: black;
   border: none;
+  font-weight: 600 !important;
   text-decoration: none;
   padding-left: 15px;
   padding-right: 15px;
@@ -17,8 +18,9 @@ const buttonStyles = css`
 
 const invertedButtonStyles = css`
   background-color: #385B7A;
-  color: #7DF48A;
-  font-weight: 300;
+  color: #6FD985;
+  border-radius: 38px;
+  font-weight: 600 !important;
   font-size: 18px;
   &:hover {
     background-color: black;
@@ -53,6 +55,7 @@ export const CustomButtonContainer = styled.button`
   width: auto;
   margin: auto;
   height: 50px;
+  border-radius: 38px;
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 10 35px 0 35px;

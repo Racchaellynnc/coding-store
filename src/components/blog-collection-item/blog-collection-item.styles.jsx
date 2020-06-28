@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 export const BlogItemContainer = styled.div`
   width: 100%;
   display: flex;
+  margin: 10px;
   margin-bottom: 40px;
   flex-direction: column;
   height: 500px;
@@ -51,6 +52,7 @@ export const AddButton = styled(CustomButton)`
 export const BackgroundImage = styled.div`
   width: 95%;
   height: 100%;
+  border: .2px solid #999;
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;

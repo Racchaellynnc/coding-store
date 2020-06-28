@@ -4,9 +4,11 @@ import CustomButton from '../buttons/buttons.component';
 export const CollectionItemContainer = styled.div`
   width: 100%;
   display: flex;
-  margin: 0px;
+  border: 1px solid #999;
+  background-color: rgba(226, 226, 226, 0.74);
+  margin: 10px;
   flex-direction: column;
-  height: 350px;
+  height: 450px;
   align-items: center;
   position: relative;
   &:hover {
@@ -33,10 +35,9 @@ export const CollectionItemContainer = styled.div`
 `;
 
 export const AddButton = styled(CustomButton)`
-  width: 55%;
-  opacity: 0.7;
-  position: absolute;
-  top: 225px;
+  width: 50%;
+  font-weight: 400;
+  margin: 20px;
   @media screen and (max-width: 650px) {
     display: block;
     opacity: 0.9;
@@ -46,7 +47,7 @@ export const AddButton = styled(CustomButton)`
 `;
 
 export const BackgroundImage = styled.div`
-  width: 90%;
+  width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -55,21 +56,22 @@ export const BackgroundImage = styled.div`
 `;
 
 export const CollectionFooterContainer = styled.div`
-  width: 80%;
-  height: 5%;
-  margin-bottom: 40px;
+  width: 100%;
+  margin-bottom: 0px;
   display: flex;
-  color: white;
+  color: #333;
   justify-content: space-between;
   font-size: 22px;
 `;
 
 export const NameContainer = styled.span`
   width: 90%;
-  margin-bottom: 15px;
+  margin: 15px;
 `;
 
 export const PriceContainer = styled.span`
   width: 10%;
+  margin-right: 15px;
+  margin-top: 15px;
   text-align: right;
 `;

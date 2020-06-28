@@ -15,11 +15,11 @@ const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
 
   return (
-    <CollectionItemContainer classname="container-item">
+    <CollectionItemContainer className="container-item">
       <BackgroundImage className='image' imageUrl={imageUrl} />
       <CollectionFooterContainer>
         <NameContainer>{name}</NameContainer>
-        <PriceContainer>{price}</PriceContainer>
+        <PriceContainer>Price ${price}</PriceContainer>
       </CollectionFooterContainer>
       <AddButton onClick={() => addItem(item)} inverted>
         Add to Cart
