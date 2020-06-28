@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export const BlogItemContainer = styled.div`
   width: 100%;
   display: flex;
-  margin: 10px;
+  margin: auto;
   margin-bottom: 40px;
   flex-direction: column;
   height: 500px;
