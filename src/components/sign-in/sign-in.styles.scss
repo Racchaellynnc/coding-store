@@ -1,49 +1,49 @@
 .sign-in {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  .title {
-    margin: 0px !important;
-    text-align: center !important;
-    margin: auto;
-    color: rgb(121, 121, 121);
-    padding-top: 20px;
-  }
-  form{
-    width: 70%;
-    color: white;
-    background-color: #6FD985;
-  }
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-  }
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	.title {
+		margin: 0px !important;
+		text-align: center !important;
+		margin: auto;
+		color: rgb(121, 121, 121);
+		padding-top: 20px;
+	}
+	form{
+		width: 70%;
+		color: white;
+		background-color: #6FD985;
+	}
+	.buttons {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 .form-input {
-  border-radius: 22px !important;
-  padding: 10px !important;
-  margin: -10px !important;
+	border-radius: 22px !important;
+	padding: 10px !important;
+	margin: -10px !important;
 }
  @media screen and (max-width: 550px) {
 .sign-in{
-    margin: auto;
-    width: 100% !important;
-    margin-top: 30px;
-  }
-    .buttons{
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
+		margin: auto;
+		width: 100% !important;
+		margin-top: 30px;
+	}
+		.buttons{
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
  }
  @media screen and (max-width: 1050px) {
-    .sign-in{
-      margin-bottom: 30px;
-      margin-top: 30px;
-      width: 80%;
-      margin: auto;
-     } 
-    .title{
-      margin-bottom: 30px;
-      padding-bottom: 20px;
-    }
+		.sign-in{
+			margin-bottom: 30px;
+			margin-top: 30px;
+			width: 80%;
+			margin: auto;
+		 } 
+		.title{
+			margin-bottom: 30px;
+			padding-bottom: 20px;
+		}
  }

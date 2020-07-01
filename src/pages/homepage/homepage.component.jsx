@@ -66,8 +66,7 @@ const HomePage = () => (
 			</div>
 		</OptionsBox>
 	<CoderalityDefinition ></CoderalityDefinition>
-	<Directory />
-		
+	<Directory />		
 	</div>
 );
 

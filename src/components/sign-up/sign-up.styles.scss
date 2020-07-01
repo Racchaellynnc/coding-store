@@ -1,33 +1,33 @@
 .sign-up {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 
 form{
-  width: 70%;
-  background-color: #6FD985;
-  color: rgb(121, 121, 121);
+	width: 70%;
+	background-color: #6FD985;
+	color: rgb(121, 121, 121);
 }
 
 .title {
-  margin: auto;
-  text-align: center;
-  padding: 20px;
-  color: rgb(121, 121, 121);
-  display: flex;
-  }
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	color: rgb(121, 121, 121);
+	display: flex;
+	}
 }
 @media screen and (max-width: 1050px) {
-  .sign-up{
-    margin-bottom: 30px;
-    width: 80%;
-    margin: auto;
-  }
+	.sign-up{
+		margin-bottom: 30px;
+		width: 80%;
+		margin: auto;
+	}
 }
 @media screen and (max-width: 550px) {
-  .sign-up{
-    margin-bottom: 30px;
-    width: 100%;
-    margin: auto;
-  }
+	.sign-up{
+		margin-bottom: 30px;
+		width: 100%;
+		margin: auto;
+	}
 }

@@ -7,7 +7,6 @@ import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 class SignUp extends React.Component {
     constructor(){
         super();
-
         this.state = {
             displayName: '',
             email: '',
@@ -18,21 +17,17 @@ class SignUp extends React.Component {
 
     handleSubmit = async event => {
         event.preventDefault();
-
         const { email, displayName, password, confirmPassword } = this.state;
         if  (password !== confirmPassword ) {
             alert("passwords don't match");
             return;
-    }
-
+        }
         try {
             const { user } = await auth.createUserWithEmailAndPassword(
           email,
           password
             );
-
         await createUserProfileDocument(user, { displayName });
-
             this.setState({
             displayName: '',
             email: '',
@@ -40,7 +35,6 @@ class SignUp extends React.Component {
             confirmPassword: ''
             });
         } 
-
         catch (error) {
             console.error(error);
         }
@@ -48,7 +42,6 @@ class SignUp extends React.Component {
   
     handleChange = event => {
       const { name, value } = event.target;
-  
       this.setState({ [name]: value });
     };
   
@@ -56,7 +49,7 @@ class SignUp extends React.Component {
         const { email, displayName, password, confirmPassword } = this.state;
         return(
             <div className="sign-up">
-                <h2 className="title"><b>I do not have an account.</b> </h2>
+                <h2 className="title"><b>Don't have an account yet?</b> </h2>
                 <span className="title">Sign up with your email</span>
                 <form className="sign-up-form" onSubmit={this.handleSubmit}>
                     <FormInput
@@ -95,9 +88,7 @@ class SignUp extends React.Component {
                         required
                         />
                    <CustomButton type='submit'>SIGN UP</CustomButton>
-
                 </form>
-
             </div>
         )
     }

@@ -4,13 +4,27 @@
 node_modules/
 /.pnp
 .pnp.js
-src/
+src/pages/categories/*
+src/pages/blog/*
+src/pages/shop/*
+src/firebase/*
+src/components/google-map/*
+src/components/stripe-button/*
+src/assets/*
+src/redux/directory/*
+src/redux/shop/shop.data.js/*
+.firebasesrc/
+package.json/
+package-lock.json/
+logo.svg/
+.firebase/
+
 # testing
 /coverage
 
 # production
 /build
-
+src/
 # misc
 .DS_Store
 .env.local

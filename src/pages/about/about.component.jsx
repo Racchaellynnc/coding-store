@@ -38,7 +38,7 @@ const AboutPage = () => (
             <div className="teacher-wrapper">
                 <div className="team-members">
                     <div className="img-wrapper">
-                        <img src="https://i.postimg.cc/Jh7cd4R8/zxcvzxc.png" alt="rachael" className="rachael" ></img> 
+                        <img src="https://i.postimg.cc/Jh7cd4R8/zxcvzxc.png" alt="team-photo" className="rachael" ></img> 
                         <div className="member-name">Rachael Coder</div>
                         <div className="member-title">CEO/Founder</div>
                     </div>
@@ -50,21 +50,21 @@ const AboutPage = () => (
             <div className="team-wrapper">
                 <div className="img-wrapper">
                     <div className="team-members">
-                        <img src="https://i.postimg.cc/GmyjsSq0/IMG-2408.png" alt="rachael" className="rachael" ></img>
+                        <img src="https://i.postimg.cc/GmyjsSq0/IMG-2408.png" alt="team-photo" className="rachael" ></img>
                         <div className="member-name">Miguel Coder</div>
                         <div className="member-title">Code Creator</div>
                     </div>
                 </div>
                 <div className="img-wrapper">
                     <div className="team-members">
-                        <img src="https://i.postimg.cc/MKzVXfpR/IMG-2443.png" alt="rachael" className="rachael" ></img>
+                        <img src="https://i.postimg.cc/MKzVXfpR/IMG-2443.png" alt="team-photo" className="rachael" ></img>
                         <div className="member-name">Ruby Coder</div>
                         <div className="member-title">Code Creator</div>
                     </div>
                 </div>
                 <div className="img-wrapper">
                     <div className="team-members">
-                        <img src="https://i.postimg.cc/cJ7MFgpX/IMG-2410.png" alt="rachael" className="rachael" ></img>
+                        <img src="https://i.postimg.cc/cJ7MFgpX/IMG-2410.png" alt="team-photo" className="rachael" ></img>
                         <div className="member-name">Damian Coder</div>
                         <div className="member-title">Game Developer</div>
                     </div>
