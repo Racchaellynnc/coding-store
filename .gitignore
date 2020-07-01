@@ -1,6 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
 node_modules/
 /.pnp
 .pnp.js
@@ -8,19 +5,20 @@ src/pages/categories/*
 src/pages/blog/*
 src/pages/shop/*
 src/firebase/*
+src/index.js/*
 src/components/google-map/*
 src/components/stripe-button/*
 src/assets/*
+src.serviceWorker.js/*
 src/redux/directory/*
 src/redux/shop/shop.data.js/*
-.firebasesrc/
-package.json/
-package-lock.json/
-logo.svg/
-.firebase/
-
-# testing
-/coverage
+.firebaserc/*
+firebase.json/*
+package.json/*
+package-lock.json/*
+logo.svg/*
+.vscode/*
+.firebase/*
 
 # production
 /build
@@ -31,7 +29,6 @@ src/
 .env.development.local
 .env.test.local
 .env.production.local
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
