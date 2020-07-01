@@ -1,5 +1,6 @@
 import React from 'react';
 import Directory from '../../components/directory/directory.component';
+import CoderalityDefinition from '../../components/coderality-definition/coderality';
 import {ReactComponent as BackgroundSvg} from '../../assets/Page1.svg';
 import {ReactComponent as BackgroundSvg2} from '../../assets/Page2-2.svg';
 import {ReactComponent as BackgroundSvgMobile} from '../../assets/mobile-page.svg';
@@ -37,8 +38,8 @@ const HomePage = () => (
           Brain Optimization
         </div>
         <div className="option-description">
-          Realizing the only competition you are facing is your own body and mind is the first step to becoming successful. Find out more about my journey and how 
-          I went from having low self esteem, no confidence, and a depressed mentality to finding my full potential.
+          Realizing the only competition you are facing is your own body and mind is the first step to becoming successful. Find out more about how 
+          I went from having low self esteem, no confidence, low energy and a depressed mentality to finding my full potential.
         </div>
         <LearnButton>Learn More</LearnButton>
       </div>
@@ -64,6 +65,7 @@ const HomePage = () => (
         <LearnButton>Learn More</LearnButton>
       </div>
     </div>
+    <CoderalityDefinition ></CoderalityDefinition>
     <Directory />
   </div>
 );

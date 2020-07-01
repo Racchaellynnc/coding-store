@@ -86,7 +86,7 @@
   transition: all 0.8s ease;
   margin: auto;
   justify-content: center;
-  margin-bottom: 288px;
+  margin-bottom: 88px;
  }
  .small-text{
    font-size: 12px;
@@ -120,20 +120,20 @@
     flex-direction: column;
     margin: auto;
     justify-content: center;
- }
+    }
  .mobile-background {
-  display: flex;
- }
+    display: flex;
+  }
  .photo-background2, .photo-background {
-   display: none;
- }
-.options{
-  margin: 15px;
-  margin-bottom: 40px;
-}
-.option-description{
-  padding: 15px;
-}
+    display: none;
+  }
+  .options{
+    margin: 15px;
+    margin-bottom: 40px;
+  }
+  .option-description{  
+    padding: 15px;
+  }
  .code-intro{
    width: 100%;
  }

@@ -40,7 +40,7 @@ const AboutPage = () => (
                     <div className="img-wrapper">
                         <img src="https://i.postimg.cc/Jh7cd4R8/zxcvzxc.png" alt="rachael" className="rachael" ></img> 
                         <div className="member-name">Rachael Coder</div>
-                        <div className="member-title">Tutor/Blog Post Creator</div>
+                        <div className="member-title">CEO/Founder</div>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ const AboutPage = () => (
   
      
      <MapContainer className="map"/>
-</div>
+    </div>
 </div> 
 )
 

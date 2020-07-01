@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MenuItemContainer = styled.div`
-	height: ${({ size }) => (size ? '580px' : '440px')}
+	height: ${({ size }) => (size ? '380px' : '240px')}
 	min-width: 30%;
 	overflow: hidden;
 	flex: 1 1 auto;
@@ -61,7 +61,7 @@ export const ContentTitle = styled.span`
   margin-bottom: 6px;
   font-size: 18px;
   text-align: center;
-  color: white;
+  color: #395B7A;
   @media screen and (max-width: 1000px) {
     font-size: 12px;
     text-align: center;
