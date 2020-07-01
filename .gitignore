@@ -19,7 +19,6 @@ package-lock.json/*
 logo.svg/*
 .vscode/*
 .firebase/*
-
 # production
 /build
 src/
