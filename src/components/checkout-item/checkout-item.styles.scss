@@ -15,6 +15,18 @@
       height: 100%;
     }
   }
+  .trash{
+    color: #6fd985 !important;
+    width: 25px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .arrow{
+    color: black !important;
+    width: 50px;
+    font-size: 28px;
+    text-align: center;
+  }
   .name, .quantity, .price {
     width: 23%;
   }
@@ -24,7 +36,10 @@
       cursor: pointer;
     }
     .value {
-      margin: 0 10px;
+      padding: 5px;
+      width: 20px;
+      text-align: center;
+      border: 1px solid #999;
     }
   }
   .remove-button {

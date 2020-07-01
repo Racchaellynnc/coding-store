@@ -1,27 +1,119 @@
-.about{
+.about-container{
     border-radius: 4px;
     background-color: none;
-    padding: 200px;
-    margin: auto;
+    margin: 0px;
+    width: 100%;
     font-size: 26px;
     font-weight: 200;
     color: #333;
-    margin: 10px;
 }
-.text{
-    margin-bottom: 140px;
+.rachael{
+  width: 150px;
+  margin: 20px;
 }
+.img-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.member-title{
+  font-size: 16px;
+}
+.member-name{
+  font-weight: 500;
+  font-size: 20px;
+}
+.our-team{
+    width: 80%;
+    box-shadow: 1px 1px 15px 7px #49827e1f;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.team-header{
+  margin: auto;
+  width: 40%;
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+.team-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+}
+.teacher-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding-bottom: 70px;
+  justify-content: center;
+}
+.about-title{
+  border-bottom: 1px solid #555;
+  width: 50%;
+  color: #222;
+  margin: auto;
+  padding: 30px;
+}
+.about-us{
+  padding: 30px;
+  font-size: 22px;
+  width: 80%;
+  margin: auto;
+}
+.about-text{
+  width: 70%;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+}
+.about-text-wrapper{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.about-text-photo{
+  background-image: url('../../assets/coding.png');
+  width: 30%;
+  margin-right: 10px;
+ } 
+
 .signup {
     text-align: center;
     margin-bottom: 50px;
 }
+.form-wrapper{
+  width: 100%;
+}
+.form-title{
+  text-align: center;
+  border-bottom: 1px solid #555;
+  width: 35%;
+  color: #222;
+  margin: auto;
+  padding: 30px;
+}
 form {
-    background-color: #6fd985;
-    color: white;
+    color: rgb(88, 88, 88);
     padding: 30px;
-    width: 100%;
+    width: 80%;
+    margin-top: 500px;
     border-radius: 4px;
     margin: auto;
+  }
+  .form-label{
+    margin-left: 70px;
+    padding-bottom: 20px;
+  }
+  .map-wrapper{
+    margin-top: 27px;
+    text-align: center;
   }
 .contact {
     border-radius: 4px;
@@ -38,6 +130,7 @@ form {
     outline: none;
     margin: auto;
     padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
@@ -65,10 +158,22 @@ input[type=submit]:hover {
 }
 
  @media screen and (max-width: 800px) {
-  .about {
+  .about { 
+    margin: auto;
     padding: 10px;
     padding-top: 30px;
     margin-top: 90px;
+   
+   }
+   .team-wrapper{
+     flex-direction: column;
+     margin: auto;
+   }
+   .about-us{
+     margin-top: 30px !important;
+     padding: 0px;
+     width: 100%;
+     margin: auto;
    }
   form {
     width: 75%;
@@ -80,13 +185,17 @@ input[type=submit]:hover {
     padding: 15px;
     margin-bottom: 70px;
   }
+  .about-text-wrapper{
+    flex-direction: column;
+    width: 100%;
+  }
    input[type=text], select, textarea {
      width: 90%;
      margin-bottom: 10px;
    }
  }
- @media screen and (min-width: 1000px) {
-  form {
-      width: 60%;
-    }
-  }
+//  @media screen and (min-width: 1000px) {
+//   form {
+//       width: 60%;
+//     }
+//   }

@@ -18,7 +18,7 @@ const SHOP_DATA = [
       },
       {
         id: 3,
-        name: 'Masked Girl Programmer',
+        name: 'Masked Programmer',
         imageUrl: 'https://i.postimg.cc/CMNCWnBY/coronavirus-tshirt.png',
         price: 25
       },

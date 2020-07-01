@@ -20,7 +20,7 @@ export const HeaderContainer = styled.div`
 export const LogoContainer = styled(Link)`
   width: 555px;
   padding: 0px;
-  margin-top: -120px;
+  margin-top: -150px;
   @media screen and (max-width: 800px) {
     display: none;
   }
@@ -42,16 +42,16 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
-  font-weight: 300;
-  background-color: #385b7aee;
-  border: 1px solid #999;
+  font-weight: 400;
+  background-color: white;
+  box-shadow: 3px 3px 3px 1px #78eb8786;
   border-radius: 14pc;
   margin: 5px;
   width: 105px;
   text-align: center;
   font-size: 16px;
   text-decoration: none;
-  color: #7cff7c;
+  color: #385B7A;
     :hover{
       background-color: #78EB88;
       color: #385B7A;

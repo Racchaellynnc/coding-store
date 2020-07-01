@@ -8,7 +8,7 @@
   align-items: center;
   position: relative;
   margin: auto;
-  background-color: rgba(128, 108, 124, 0.411);
+  background-color: rgba(226, 226, 226, 0.74);
 
   .image {
     width: 100%;
@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    background-image: linear-gradient(#6fd985, #385b7aa6);
   }
 
   .collection-footer {

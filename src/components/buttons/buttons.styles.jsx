@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components';
 
 const buttonStyles = css`
-  background-color: #78EB88;
+background-color: white;
+box-shadow: 3px 3px 3px 1px #78eb8786;
   color: black;
   border: none;
   font-weight: 600 !important;
@@ -17,13 +18,13 @@ const buttonStyles = css`
 `;
 
 const invertedButtonStyles = css`
-  background-color: #385B7A;
-  color: #6FD985;
+  background-color: white;
+  color: #385b7a;
   border-radius: 38px;
   font-weight: 600 !important;
   font-size: 18px;
   &:hover {
-    background-color: black;
+    background-color: #385B79;
     color: white;
     border: none;
   }

@@ -4,17 +4,14 @@ import CustomButton from '../buttons/buttons.component';
 export const CollectionItemContainer = styled.div`
   width: 100%;
   display: flex;
-  border: 1px solid #999;
-  background-color: rgba(226, 226, 226, 0.74);
+  border: .2px solid #999;
   margin: 10px;
   flex-direction: column;
   height: 450px;
   align-items: center;
+  background-color: rgba(220, 255, 220, 0.9);
   position: relative;
-  &:hover {
-    .image {
-      opacity: 0.8;
-    }
+
     button {
       opacity: 0.85;
       display: flex;
@@ -37,20 +34,20 @@ export const CollectionItemContainer = styled.div`
 `;
 
 export const AddButton = styled(CustomButton)`
-  width: 50%;
+  width: 40%;
   font-weight: 400;
   margin: 20px;
   @media screen and (max-width: 650px) {
     display: block;
     opacity: 0.9;
     margin-bottom: 20px;
-    padding: 0 10px;
   }
 `;
 
 export const BackgroundImage = styled.div`
   width: 100%;
   height: 100%;
+  border: 1px solid: #999 !important;
   background-size: cover;
   background-position: center;
   margin-bottom: 5px;
@@ -58,10 +55,12 @@ export const BackgroundImage = styled.div`
 `;
 
 export const CollectionFooterContainer = styled.div`
-  width: 100%;
-  margin-bottom: 0px;
+  width: 80%;
+  margin-top: -40px;
   display: flex;
   color: #333;
+  background-color: white;
+  border: .2px solid #999;
   justify-content: space-between;
   font-size: 22px;
 `;

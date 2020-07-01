@@ -92,6 +92,7 @@ const AwsSecurity = () => (
                        <li>GenerateDataKeyWithoutPlaintext</li> 
                        <li>Decrypt</li> 
                        <li>GenerateRandomNumber</li> 
+                       
                     </ul>
                 </div>
 

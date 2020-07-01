@@ -15,7 +15,7 @@ const BlogCollectionItem = ({ blog}) => {
   const { title, imageUrl, link, excerpt } = blog;
 
   return (
-    <BlogItemContainer classname="container-item">
+    <BlogItemContainer className="container-item">
       <BackgroundImage className='image' imageUrl={imageUrl} />
       <BlogFooterContainer>
         <BlogPostLink className="blog-post-link" to={link}>
