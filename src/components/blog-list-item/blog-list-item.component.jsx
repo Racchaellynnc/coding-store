@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../pages/blog/blog.data';
-import './blog-list-item.styles.scss';
+import {BlogItem} from './blog-list-item.styles.jsx';
 
 const BlogItem = ({ blog: { imageUrl, link, price, title, quantity } }) => (
-  <div className='blog-item'>
+  <BlogItem className='blog-item'>
       <img src={require(`../../pages/blog/blog.data${imageUrl}`).default} alt='item' />
         <div className='item-details'> 
           <span className='name'>{title}</span>
@@ -11,7 +11,7 @@ const BlogItem = ({ blog: { imageUrl, link, price, title, quantity } }) => (
             {quantity} x ${price}
           </span> 
       </div>
-  </div>
+  </BlogItem>
 );
 
 export default BlogItem;

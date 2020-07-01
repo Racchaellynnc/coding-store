@@ -23,11 +23,11 @@ const CoderalityDefinition = () => (
             <CoderalityDef>
                 1. (noun) to possess the quality of being a coder; quality of coding<br></br>
                 2. (noun) to be aesthetically and logically consistent in writing code<br></br>
-                3. (adj) to have a passion for writing code <br></br>
+                3. (noun) to have passion for writing code <br></br>
                 
             </CoderalityDef>
             <CoderalityExample>
-                Danny wrote 1000 lines of code last night at 2:00 AM. I think he finally has coderality.
+                Danny wrote 1000 lines of code last until 2:00 AM. I think he finally has coderality.
             </CoderalityExample>
         </CoderalityContainer>
     </div>
