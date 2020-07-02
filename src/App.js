@@ -17,6 +17,7 @@ import AboutPage from './pages/about/about.component';
 import MobileBlogReactNative from './pages/categories/mobile-developement/blog-pages/react-native';
 import JSBlogPage from './pages/categories/js-developement/js-developement';
 import AwsSecurity from './pages/categories/cloud/aws-security';
+import Beanstalk from './pages/categories/cloud/elastic-beanstalk';
 
 class App extends React.Component {
 unsubscribeFromAuth = null;
@@ -66,6 +67,7 @@ Toggle = () => {
 				<Router>   
 					<Header />
 					<Switch>
+						<Route exact path='/beanstalk' component={Beanstalk} />
 						<Route exact path='/aws-security' component={AwsSecurity} />
 						<Route exact path='/javascript' component={JSBlogPage} />
 						<Route exact path='/reactnative' component={MobileBlogReactNative} />

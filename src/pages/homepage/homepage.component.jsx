@@ -6,6 +6,7 @@ import {ReactComponent as BackgroundSvg2} from '../../assets/Page2-2.svg';
 import {ReactComponent as BackgroundSvgMobile} from '../../assets/mobile-page.svg';
 import './homepage.styles';
 import './homepage.styles.scss';
+import { Helmet } from 'react-helmet';
 
 import {
 	  LearnButton,
@@ -15,6 +16,7 @@ import {
 const HomePage = () => (
   	<div className="coderality">
     	<div>
+
       		<BackgroundSvg className="photo-background" />
       		<div className="intro-message">
         		Where We Turn Code Into Reality
@@ -31,7 +33,11 @@ const HomePage = () => (
 			<div className="intro-message-mobile">
 				Where We Turn Code Into Reality
 			</div> 
-		</div>
+		</div>		
+		<Helmet>
+          <title>Coderality</title>
+          <meta name="description" content="Coding tutorials from beginners to advanced. Learn Front-End frameworks like React, Vue or Angular. We turn Code into Reality" />
+        </Helmet>
 		<OptionsBox className="photo-box">
 			<div className="options">
 				<img src="https://i.postimg.cc/05wRK7jJ/brain-1.png" className="option-photo" alt="brain"></img>

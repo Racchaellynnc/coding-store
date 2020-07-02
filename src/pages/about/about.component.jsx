@@ -2,10 +2,16 @@ import React from 'react';
 import './about.styles.scss';
 import MapContainer from '../../components/google-map/google-map';
 import CustomButton from '../../components/buttons/buttons.component';
+import { Helmet } from 'react-helmet';
 
 
 const AboutPage = () => (
     <div className='about-container'>
+        <Helmet>
+            <title>Coderality</title>
+            <meta name="About Us" content="Having fun while learning together is our main priority! We hope to inspire people of all ages to have a code mentality." />
+            <meta name="theme-color" content="#008f68" />
+        </Helmet>
         <div class="about-text-wrapper">
             <div className="about-text-photo"></div>
             <div className="about-text">
@@ -15,8 +21,7 @@ const AboutPage = () => (
                         Having fun while learning together is our main priority! We hope to inspire people of all ages to have a code mentality. We want to give everyone a fun, motivational and exciting experience.
                         We will guide you in your journey to creating games, portfolios, and other types of websites. Sign up for as little as $5 a month and 
                         you can attend our monthly virtual meetings where we will expand our knowledge together. We offer 1:1 tutoring for 
-                        kids (ages 8 and up) where we will create awesome games and graphics together. You will receive a free t-shirt and have your photo added to our team after you have been with us 
-                        for 3 classes. 
+                        kids (ages 8 and up) where we will create awesome games and graphics together. 
                     </div>
                 </section>
                 <section className="about-section">
@@ -24,8 +29,7 @@ const AboutPage = () => (
                         <div className="about-us">
                             We are the just a small family of 5 with the last name of Coder. All of us love to write code ( even our 1 year old baby writes giberish code ). 
                             Our main focus as a family is to make the world a better place. 20% of proceeds from our business will be donated to kids in other 
-                            countries who can't afford to get education. We will be sharing our donation progress along the way threw our newsletters. Please subscribe 
-                            to stay up to date with all of our progress. We hope to grow and help as many children as humanly possible!
+                            countries who can't afford to get education. 
                         </div>
                 </section>
             </div>
