@@ -8,9 +8,8 @@ import { Helmet } from 'react-helmet';
 const AboutPage = () => (
     <div className='about-container'>
         <Helmet>
-            <title>Coderality</title>
-            <meta name="About Us" content="Having fun while learning together is our main priority! We hope to inspire people of all ages to have a code mentality." />
-            <meta name="theme-color" content="#008f68" />
+            <title>About Coderality</title>
+            <meta name="description" content="We hope to inspire people of all ages to have a code mentality." />
         </Helmet>
         <div class="about-text-wrapper">
             <div className="about-text-photo"></div>

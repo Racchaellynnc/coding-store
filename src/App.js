@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
+import {Helmet} from 'react-helmet';
 import { selectCurrentUser } from './redux/user/user.selectors';
 import './App.css';
 import {ReactComponent as Bars} from './assets/bars-solid.svg';
@@ -51,21 +52,25 @@ Toggle = () => {
 	render(){
 		return ( 
 			<>
-			<div>     
-			<div className="navBar">
+			<div>   
+				<Helmet>
+				  	<title>Coderality</title>
+				  	<meta name="description" content="Coding tutorials, blog posts, and mentoring from beginners to advanced. We turn Code into Reality." />	
+			  	</Helmet>  
+			<div rel="nofollow" className="navBar">
 				<button onClick={this.Toggle}>
 					<Bars className="menu-bars" />
 				</button>
 				<ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
-					<a href="https://coderality.com"><li className="links" >HOME</li></a>
-					<a href="https://coderality.com/about"><li className="links" >ABOUT</li></a>
-					<a href="https://coderality.com/shop"><li className="links" >SHOP</li></a>
-					<a href="https://coderality.com/blog"><li className="links" >BLOG</li></a>
-					<a href="https://coderality.com/signin"><li className="links" >SIGN IN</li></a>
+					<a href="https://coderality.com" ><li className="links" >HOME</li></a>
+					<a href="https://coderality.com/about" ><li className="links" >ABOUT</li></a>
+					<a href="https://coderality.com/shop" ><li className="links" >SHOP</li></a>
+					<a href="https://coderality.com/blog" ><li className="links" >BLOG</li></a>
+					<a href="https://coderality.com/signin" ><li className="links" >SIGN IN</li></a>
 				</ul>
 			</div>
-				<Router>   
-					<Header />
+				<Router >   
+					<Header rel="nofollow" />
 					<Switch>
 						<Route exact path='/beanstalk' component={Beanstalk} />
 						<Route exact path='/aws-security' component={AwsSecurity} />

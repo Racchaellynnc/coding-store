@@ -3,11 +3,12 @@ import styled, { css } from 'styled-components';
 const buttonStyles = css`
 background-color: white;
 box-shadow: 3px 3px 3px 1px #78eb8786;
-  color: black;
+  color: #333;
   border: none;
   font-weight: 600 !important;
   text-decoration: none;
   padding-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   padding-right: 15px;
   border-radius: 38px;
   &:hover {
@@ -22,7 +23,7 @@ const invertedButtonStyles = css`
   color: #385b7a;
   border-radius: 38px;
   font-weight: 600 !important;
-  font-size: 18px;
+  font-size: 14px;
   &:hover {
     background-color: #385B79;
     color: white;

@@ -4,29 +4,31 @@ import CoderalityDefinition from '../../components/coderality-definition/coderal
 import {ReactComponent as BackgroundSvg} from '../../assets/Page1.svg';
 import {ReactComponent as BackgroundSvg2} from '../../assets/Page2-2.svg';
 import {ReactComponent as BackgroundSvgMobile} from '../../assets/mobile-page.svg';
+import {Helmet} from 'react-helmet';
 import './homepage.styles';
 import './homepage.styles.scss';
-import { Helmet } from 'react-helmet';
-
 import {
 	  LearnButton,
 	  OptionsBox
 } from './homepage.styles';
-
+<Helmet>
+	<head>		
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Coderality</title>
+		<meta name="description" content="Coding tutorials from beginners to advanced. Learn about Front-End frameworks, Cloud technologies and much more." />	
+	</head>
+</Helmet>
 const HomePage = () => (
   	<div className="coderality">
     	<div>
-
       		<BackgroundSvg className="photo-background" />
       		<div className="intro-message">
         		Where We Turn Code Into Reality
       		</div> 
     	</div>
     	<div>
-      		<BackgroundSvg2 className="photo-background2" />
-      		<div className="intro-message">
-        		{/* put graphic here */}
-      		</div> 
+      		<BackgroundSvg2 className="photo-background2" /> 
     	</div>
 		<div>
 			<BackgroundSvgMobile className="mobile-background" />
@@ -34,17 +36,13 @@ const HomePage = () => (
 				Where We Turn Code Into Reality
 			</div> 
 		</div>		
-		<Helmet>
-          <title>Coderality</title>
-          <meta name="description" content="Coding tutorials from beginners to advanced. Learn Front-End frameworks like React, Vue or Angular. We turn Code into Reality" />
-        </Helmet>
-		<OptionsBox className="photo-box">
+		<OptionsBox className="photo-box" rel="nofollow">
 			<div className="options">
 				<img src="https://i.postimg.cc/05wRK7jJ/brain-1.png" className="option-photo" alt="brain"></img>
 				<div className="option-title">
 					Brain Optimization
 				</div>
-				<div className="option-description">
+				<div rel="nofollow" className="option-desc">
 					Realizing the only competition you are facing is your own body and mind is the first step to becoming successful. Find out more about the best ways
 					to stay focused. 
 				</div>
@@ -55,7 +53,7 @@ const HomePage = () => (
 				<div className="option-title">
 					See what we've created
 				</div>
-				<div className="option-description">
+				<div className="option-desc">
 					Come see a few of the awesome projects we've built and consider joining us on our journey! 
 				</div>
 				<LearnButton>Learn More</LearnButton>
@@ -65,7 +63,7 @@ const HomePage = () => (
 				<div className="option-title">
 					We are Hiring
 				</div>
-				<div className="option-description">
+				<div className="option-desc">
 					You don't need to have a lot of experience, just the basics and the willingness to learn. We are hiring Web Developers and Graphic Designers.
 				</div>
 				<LearnButton>Learn More</LearnButton>

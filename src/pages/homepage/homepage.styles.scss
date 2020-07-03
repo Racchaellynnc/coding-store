@@ -7,6 +7,9 @@
 	color: white;
 	font-weight: 200;
 }
+.intro-message-description{
+	display: none;
+}
 .intro-message-mobile{
 	display: none;
 }
@@ -28,7 +31,7 @@
 	width: 222px;
 	margin: auto;
 }
-.option-description{
+.option-desc{
 	padding: 28px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 18px;

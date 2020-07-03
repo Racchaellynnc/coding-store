@@ -8,6 +8,10 @@ const CollectionPage = ({ collection }) => {
   	const { title, items } = collection;
   	return (
 		<div className='collection-page'>
+		{/* <Helmet>
+            <title>Coderality Clothing</title>
+            <meta name="description" content="Find the coolest programming t-shirts. We sell shirts in many sizes and colors." />
+        </Helmet> */}
 	  		<h2 className='title'>{title}</h2>
 	  		<div className='items'>
 				{items.map(item => (

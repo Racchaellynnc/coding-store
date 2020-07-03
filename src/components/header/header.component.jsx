@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { auth } from '../../firebase/firebase.utils';
 import CartIcon from '../cart-icon/cart-icon.component';
-import { Helmet } from 'react-helmet';
-
+import {Helmet} from 'react-helmet';
 import {
 	HeaderContainer,
 	LogoContainer,
@@ -14,29 +13,29 @@ import {
 
 const Header = ({ currentUser, hidden }) => (
 	<HeaderContainer>
+		<Helmet>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<title>Turn code into reality.</title>
+			<meta name="description" content="Join us today for a fun and exciting coding experience. We want to inspire people to have a coder mentality." />
+         	<meta name="theme-color" content="#008f68" />	
+		</Helmet>
 		<LogoContainer to='/'>
 			<img src="https://i.postimg.cc/4yphttYw/logo.png" alt="logo" class="logo"></img>
 		</LogoContainer>
-		<Helmet>
-          <title>Turning Code Into Reality</title>	
-          <meta name="description" content="Coding tutorials from beginners to advanced. Learn Front-End frameworks like React, Vue or Angular. Read our blog posts or get tutoring and mentoring." />
-		</Helmet>
-		<OptionsContainer>
-			<OptionLink to='/shop'>SHOP</OptionLink>
-			<OptionLink to='/blog'>BLOG</OptionLink>
-			<OptionLink to='/about'>ABOUT</OptionLink>
+		<OptionsContainer rel="nofollow" >
+			<OptionLink rel="nofollow" to='/shop'>SHOP</OptionLink>
+			<OptionLink rel="nofollow" to='/blog'>BLOG</OptionLink>
+			<OptionLink rel="nofollow" to='/about'>ABOUT</OptionLink>
 			{currentUser ? (
-				<OptionLink as='div' onClick={() => auth.signOut()}>
+				<OptionLink rel="nofollow" as='div' onClick={() => auth.signOut()}>
 					SIGN OUT
         		</OptionLink>
 			) : (
-				<OptionLink to='/signin'>SIGN IN</OptionLink>
+				<OptionLink rel="nofollow" to='/signin'>SIGN IN</OptionLink>
 				)}
 			<CartIcon /> {hidden ? null : <CartDropdown />}
 		</OptionsContainer>
-			<meta name="Sign up now and stay up to day with all the latest technology." content="Join us today for a fun and exciting coding experience. We want to inspire people to have a coder mentality." />
-         	<meta name="theme-color" content="#008f68" />
-	
 	</HeaderContainer>
 );
 
