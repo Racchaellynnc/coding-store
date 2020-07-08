@@ -7,12 +7,16 @@ import './sign-in-and-sign-up.styles.scss';
 
 const SignInAndSignUpPage = () => (
 	<div className='sign-in-and-sign-up'>
-		<Helmet >
-			<title>Coderality Sign In</title>
-			<meta name="description" content="Sign up with a free account where you can stay up to date with our latest blog posts." />	
-		</Helmet>
-		<SignIn />
-		<SignUp />
+		<head>
+			<Helmet >
+				<meta charset="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<title>Coderality Sign In</title>
+				<meta name="description" content="Sign in have complete access to our shop and latest blogs." />		
+			</Helmet>
+		</head>
+		<SignIn className="signin" rel="nofollow" />
+		<SignUp rel="nofollow" />
 	</div>
 );
 

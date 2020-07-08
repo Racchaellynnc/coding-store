@@ -49,6 +49,12 @@ class SignUp extends React.Component {
         const { email, displayName, password, confirmPassword } = this.state;
         return(
             <div className="sign-up">
+                <head>
+					<meta charset="UTF-8" />
+					<meta name="viewport" content="width=device-width, initial-scale=1" />
+					<title>Coderality Sign In</title>
+					<meta name="description" content="Sign up with a free account where you can stay up to date with our latest blog posts." />		
+				</head>
                 <h2 className="title"><b>Don't have an account yet?</b> </h2>
                 <span className="title">Sign up with your email</span>
                 <form className="sign-up-form" onSubmit={this.handleSubmit}>

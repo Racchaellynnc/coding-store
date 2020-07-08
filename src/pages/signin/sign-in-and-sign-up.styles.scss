@@ -1,7 +1,12 @@
 .sign-in-and-sign-up {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+}
+.signin{
+	justify-content: flex-start;
+	top: 0;
+	position: absolute;
+	margin-top: 0px !important;
 }
 
  @media screen and (max-width: 1050px) {

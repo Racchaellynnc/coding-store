@@ -7,6 +7,13 @@
 		font-weight: 200;
 		color: #333;
 }
+.intro-container{
+	height: 800px;
+	background-image: url('https://i.postimg.cc/VsBLX0th/Untitled-5.png');
+	background-size: cover;
+	width: 100%;
+	margin-top: -399px;
+}
 .team-members{
 	width: 150px;
 	margin: 20px;
@@ -53,7 +60,6 @@
 	justify-content: center;
 }
 .about-title{
-	border-bottom: 1px solid #555;
 	width: 50%;
 	color: #222;
 	margin: auto;
@@ -71,13 +77,13 @@
 	margin: auto;
 	text-align: center;
 }
-.about-text-wrapper{
-	width: 80%;
-	height: 100%;
-	margin: auto;
-	display: flex;
-	flex-direction: row;
-}
+// .about-text-wrapper{
+// 	width: 80%;
+// 	height: 100%;
+// 	margin: auto;
+// 	display: flex;
+// 	flex-direction: row;
+// }
 .about-text-photo{
 	background-image: url('../../assets/coding.png');
 	width: 30%;

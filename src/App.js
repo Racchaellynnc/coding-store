@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+
+import { BrowserRouter as Router,  Route, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import {Helmet} from 'react-helmet';
 import { selectCurrentUser } from './redux/user/user.selectors';
@@ -10,6 +11,7 @@ import HomePage from './pages/homepage/homepage.component';
 import BlogPage from './pages/blog/blog.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
+import Footer from './components/footer/footer';
 import SignInPage from './pages/signin/signin.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -54,14 +56,16 @@ Toggle = () => {
 			<>
 			<div>   
 				<Helmet>
+					<meta charset="UTF-8" />
+					<meta name="viewport" content="width=device-width, initial-scale=1" />
 				  	<title>Coderality</title>
 				  	<meta name="description" content="Coding tutorials, blog posts, and mentoring from beginners to advanced. We turn Code into Reality." />	
 			  	</Helmet>  
-			<div rel="nofollow" className="navBar">
+			<div rel="nofollow" className="nav-links">
 				<button onClick={this.Toggle}>
 					<Bars className="menu-bars" />
 				</button>
-				<ul className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
+				<ul rel="nofollow" className={this.state.toggle ? "nav-links show-nav" : "nav-links"}>
 					<a href="https://coderality.com" ><li className="links" >HOME</li></a>
 					<a href="https://coderality.com/about" ><li className="links" >ABOUT</li></a>
 					<a href="https://coderality.com/shop" ><li className="links" >SHOP</li></a>
@@ -70,19 +74,19 @@ Toggle = () => {
 				</ul>
 			</div>
 				<Router >   
-					<Header rel="nofollow" />
-					<Switch>
-						<Route exact path='/beanstalk' component={Beanstalk} />
+					<Header />
+						<Route exact path='/beanstalk' name="Deploy a Node Application onto Beanstalk" component={Beanstalk} />
 						<Route exact path='/aws-security' component={AwsSecurity} />
 						<Route exact path='/javascript' component={JSBlogPage} />
 						<Route exact path='/reactnative' component={MobileBlogReactNative} />
 						<Route exact path='/' component={HomePage} />
-						<Route path='/shop' component={ShopPage} />
-						<Route path='/blog' component={BlogPage} />
-						<Route path='/about' component={AboutPage} />
+						<Route exact path='/shop' name="Our Store"component={ShopPage} />
+						<Route exact path='/blog' name="Our Blog" component={BlogPage} />
+						<Route exact path='/about' name="About Us" component={AboutPage} />
 						<Route exact path='/checkout' component={CheckoutPage} />
 						<Route
 							exact
+							name="Sign in"
 							path='/signin'
 							render={() =>
 								this.props.currentUser ? (
@@ -92,9 +96,10 @@ Toggle = () => {
 								)
 							}
 						/>
-					</Switch>
+				
 				</Router>
-			</div>
+			
+			</div><Footer className="footer"/>
 			</>
 		);
 	}

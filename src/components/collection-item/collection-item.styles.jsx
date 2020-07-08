@@ -9,7 +9,7 @@ export const CollectionItemContainer = styled.div`
 	flex-direction: column;
 	height: 450px;
 	align-items: center;
-	background-color: rgba(220, 255, 220, 0.9);
+	background-color: #E5E5EA;
 	position: relative;
 
 		button {
@@ -36,6 +36,9 @@ export const CollectionItemContainer = styled.div`
 export const AddButton = styled(CustomButton)`
 	width: 40%;
 	font-weight: 400;
+	background-color: white;
+	color: #333;
+	box-shadow: 3px 3px 3px 1px #78eb8786;
 	margin: 20px;
 	@media screen and (max-width: 650px) {
 		display: block;
