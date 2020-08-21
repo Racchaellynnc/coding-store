@@ -9,15 +9,6 @@ import {
 const Skills = () => (
     <div>
         <FooterContainer >
-            <img src="https://i.postimg.cc/nhqW96zt/Untitled-design-6.png" alt="logo" class="logo"></img>
-            <LinkOptions>
-            
-            
-                Copyright
-               <div className="icon">
-                    <i class="fal fa-copyright"></i> 
-                </div>
-            </LinkOptions>
             <LinkOptions>
                 Support Us
                 <LinkOptionsOption>
@@ -50,7 +41,7 @@ const Skills = () => (
                     Programming
                 </LinkOptionsOption>
                 <LinkOptionsOption>
-                    Health
+                    Brain Health
                 </LinkOptionsOption>
                 <LinkOptionsOption>
                     Game Development 

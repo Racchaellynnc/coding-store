@@ -2,13 +2,17 @@
 .intro-message-mobile{
 	display: none;
 }
+body {
+	width: 100%;
+	margin: 0px;
+}
 .code-intro{
 	height: 800px;
-	width: 90%;
+	width: 100%;
 	border-radius: 4px;
 }
 .intro-message-title{
-	margin-top: 300px;
+	margin-top: 600px;
 	position: absolute;
 	float: left;
 	width: 100%;
@@ -99,8 +103,8 @@
 		margin: auto !important;
 	}
 
-	.coderality{
-		width:100%;
+	.coderality {
+		width:	100%;
 		margin: 0px !important;
 	}
 
@@ -124,6 +128,7 @@
 	.mobile-background {
 		display: flex;
 		margin-top: 277px;
+		width: 100%;
 		bottom: 0;
 	}
 

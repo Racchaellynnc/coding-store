@@ -39,18 +39,11 @@ class SignIn extends React.Component {
 	render() {
 		return (
 			<div className='sign-in'>
-				<head>
-					<meta charset="UTF-8" />
-					<meta name="viewport" content="width=device-width, initial-scale=1" />
-					<title>Coderality Sign In</title>
-					<meta name="description" content="Sign up with a free account where you can stay up to date with our latest blog posts." />		
-			</head>
 				<h2 className="title"><b>Welcome Back</b> </h2>
 				<span className="title">Sign in with your email or google account</span>
-
 				<form onSubmit={this.handleSubmit}>
 					<FormInput
-						class='form-input'
+						className='form-input'
 						name='email'
 						type='email'
 						handleChange={this.handleChange}

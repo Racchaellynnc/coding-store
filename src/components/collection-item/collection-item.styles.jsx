@@ -11,7 +11,6 @@ export const CollectionItemContainer = styled.div`
 	align-items: center;
 	background-color: #E5E5EA;
 	position: relative;
-
 		button {
 			opacity: 0.85;
 			display: flex;
@@ -21,10 +20,6 @@ export const CollectionItemContainer = styled.div`
 	 margin: auto;
 	 margin-bottom: 20px;
 	 width: 100%;
-		&:hover {
-			.image {
-				opacity: 0.8;
-			}
 			button {
 				transition: transform 2s ease;
 				opacity: unset;
@@ -38,12 +33,12 @@ export const AddButton = styled(CustomButton)`
 	font-weight: 400;
 	background-color: white;
 	color: #333;
-	box-shadow: 3px 3px 3px 1px #78eb8786;
 	margin: 20px;
+	margin-bottom: 20px;
 	@media screen and (max-width: 650px) {
 		display: block;
 		opacity: 0.9;
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 `;
 
@@ -61,6 +56,7 @@ export const CollectionFooterContainer = styled.div`
 	width: 80%;
 	margin-top: -40px;
 	display: flex;
+	height: 110px;
 	color: #333;
 	background-color: white;
 	border: .2px solid #999;
@@ -76,6 +72,6 @@ export const NameContainer = styled.span`
 export const PriceContainer = styled.span`
 	width: 10%;
 	margin-right: 15px;
-	margin-top: 15px;
+	margin-top: 5px;
 	text-align: right;
 `;

@@ -13,7 +13,7 @@ import {
 const Header = ({ currentUser, hidden }) => (
 	<HeaderContainer>
 		<LogoContainer to='/'>
-			<img src="https://i.postimg.cc/SQwY15y5/Untitled-design-5.png" alt="logo" class="logo"></img>
+			<img src="https://i.postimg.cc/SQwY15y5/Untitled-design-5.png" alt="logo" className="logo"></img>
 		</LogoContainer>
 		<OptionsContainer rel="nofollow" >
 			<OptionLink rel="nofollow" to='/shop'>SHOP</OptionLink>

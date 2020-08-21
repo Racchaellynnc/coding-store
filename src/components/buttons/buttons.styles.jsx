@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components';
 const buttonStyles = css`
   background-color: white;
   color: #333;
-  border: none;
   font-weight: 400 !important;
   text-decoration: none;
   padding-left: 15px;
@@ -11,8 +10,8 @@ const buttonStyles = css`
   padding-right: 15px;
   border-radius: 38px;
   &:hover {
-    background-color: #78EB88;
-    color: #333;
+    background-color: #2871a4;
+    color: white;
   }
 `;
 
@@ -24,8 +23,8 @@ const invertedButtonStyles = css`
   font-weight: 600 !important;
   font-size: 14px;
   &:hover {
-    background-color: #78eb88;
-    color: #333;
+    background-color:#2871A4;
+    color: white;
     border: none;
   }
 `;

@@ -9,7 +9,7 @@ export const LearnButton = styled(CustomButton)`
 	background-image: linear-gradient(to right,#7df489 -22%,#2871a4 125%);
 	position: absolute;
 	width: 10%;
-	margin-left: 144px;
+	margin-left: 150px;
   	margin-bottom: 30px;
   		@media screen and (max-width: 1100px) {
 			display: block;

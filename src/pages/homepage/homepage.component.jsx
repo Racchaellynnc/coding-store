@@ -8,16 +8,14 @@ import {
 
 
 const HomePage = () => (
-  	<div className="coderality">
+  	<div className="coderality">		
+		<Helmet>	
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<title>Coderality</title>
+			<meta name="description" content="Coding tutorials from beginners to advanced. Learn about Front-End frameworks, Cloud technologies and much more." />	
+		</Helmet>	
     	<div>
-			<head>
-				<Helmet>	
-					<meta charset="UTF-8" />
-					<meta name="viewport" content="width=device-width, initial-scale=1" />
-					<title>Coderality</title>
-					<meta name="description" content="Coding tutorials from beginners to advanced. Learn about Front-End frameworks, Cloud technologies and much more." />		
-				</Helmet>
-			</head>
 			<div className="photo-background">
 				<div className="intro-message-title">
 					We turn Code into Reality.

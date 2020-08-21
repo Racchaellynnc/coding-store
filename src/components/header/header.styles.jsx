@@ -46,19 +46,19 @@ export const OptionsContainer = styled.div`
 export const OptionLink = styled(Link)`
   	padding: 10px 15px;
   	cursor: pointer;
-  	font-weight: 400;
+  	font-weight: 500;
   	background-color: white;
   	border-radius: 14pc;
   	margin: 5px;
   	width: 105px;
   	text-align: center;
-  	font-size: 16px;
+  	font-size: 15px;
   	text-decoration: none;
-  	color: #385B7A;
+  	color: #2871A4;
     :hover{
-      	background-color: #78d188;
+      	background-color: #2871A4;
 		  color: white;
-		  font-weight: 700;
+		  font-weight: 600;
     }
   	@media screen and (max-width: 800px) {
     	display: none;

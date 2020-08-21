@@ -8,7 +8,6 @@ import { createStructuredSelector } from 'reselect';
 import { toggleCartHidden } from '../../redux/cart/cart.actions.js';
 import './cart-dropdown.styles.scss';
 
-
 const CartDropdown = ({ cartItems, history, dispatch }) => (
 		<div className='cart-dropdown'>
 			<div className='cart-items'>
@@ -26,8 +25,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
 				}}>
 					CHECKOUT</CustomButton>
 		</div>
-	);
-	
+	);	
 const mapStateToProps = createStructuredSelector({
 	cartItems: selectCartItems
 });
