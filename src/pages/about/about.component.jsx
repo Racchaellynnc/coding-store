@@ -36,7 +36,7 @@ const AboutPage = () => (
                 </div>
             </div>
 
-            <div className='our-team'>  
+            {/* <div className='our-team'>  
                 <div className="team-header">
                     Our Tutors
                 </div>
@@ -75,7 +75,7 @@ const AboutPage = () => (
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="form-title">
                 Our Location
             </div>
