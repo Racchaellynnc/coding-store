@@ -7,23 +7,27 @@ body {
 	margin: 0px;
 }
 .code-intro{
-	height: 800px;
 	width: 100%;
 	border-radius: 4px;
 }
+
 .intro-message-title{
-	margin-top: 600px;
 	position: absolute;
+	letter-spacing: 1px;
+	font-weight: 500;
 	float: left;
 	width: 100%;
 	padding: 50px;
 	margin-left: 100px;
-	color: #333;
+	color: #2871a4;
 	font-family: sans-serif;
-	font-size: 30px;
+	font-size: 27px;
+	-webkit-margin-before: 555px;
+	-webkit-margin-after: -555px;
 }
+
 .intro-message-description{
-	margin-top: 300px;
+	margin-top: 555px;
 	position: absolute;
 	width: 30%;
 	color:#333;

@@ -4,12 +4,12 @@ import CustomButton from '../../components/buttons/buttons.component';
 export const LearnButton = styled(CustomButton)`
   	font-weight: 400;
   	background-color: #78eb88;
-	margin-top: 447px;
+	margin-top: 720px;
 	color: white;
 	background-image: linear-gradient(to right,#7df489 -22%,#2871a4 125%);
 	position: absolute;
-	width: 10%;
-	margin-left: 150px;
+	width: 17%;
+	margin-left: 177px;
   	margin-bottom: 30px;
   		@media screen and (max-width: 1100px) {
 			display: block;

@@ -15,17 +15,18 @@ const HomePage = () => (
 			<title>Coderality</title>
 			<meta name="description" content="Coding tutorials from beginners to advanced. Learn about Front-End frameworks, Cloud technologies and much more." />	
 		</Helmet>	
-    	<div>
+    	<div className="homepage-intro">
 			<div className="photo-background">
 				<div className="intro-message-title">
-					We turn Code into Reality.
+					TURNING CODE INTO REALITY
 				</div>
 			</div>
 			<div>
 				<img src="https://i.postimg.cc/y8FzsM34/homepage.png" alt="code" className="photo-background2" /> 
 			<div>
 				<div className="intro-message-description">
-					Learn to code with us. We offer mentorship for beginners and free full-stack web developer courses. 
+					We want to help everyone understand the fundamentals of programming. 
+					Learn to code with us, read our latest blog posts, join our tutoring program, or buy a T-shirt.
 				</div>
 				<LearnButton>Learn more</LearnButton>
 			</div>	

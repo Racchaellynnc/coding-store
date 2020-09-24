@@ -12,14 +12,14 @@ const SHOP_DATA = [
       },
       {
         id: 2,
-        name: 'Girls Who Code',
-        imageUrl: 'https://i.postimg.cc/SN16K0fv/girls-programming-tshirt.png',
+        name: 'Black and Green Coderality',
+        imageUrl: 'https://i.postimg.cc/Ls5fNb7W/coderality-tshirt.png',
         price: 25
       },
       {
         id: 3,
-        name: 'Masked Programmer',
-        imageUrl: 'https://i.postimg.cc/CMNCWnBY/coronavirus-tshirt.png',
+        name: 'Mint Green and Blue Coderality',
+        imageUrl: 'https://i.postimg.cc/WzVbdDPv/coderality-tshirt-1.png',
         price: 25
       },
     ]

@@ -7,7 +7,7 @@ export const CollectionItemContainer = styled.div`
 	border: .2px solid #999;
 	margin: 10px;
 	flex-direction: column;
-	height: 450px;
+	height: 590px;
 	align-items: center;
 	background-color: #E5E5EA;
 	position: relative;
@@ -46,7 +46,7 @@ export const BackgroundImage = styled.div`
 	width: 100%;
 	height: 100%;
 	border: 1px solid: #999 !important;
-	background-size: cover;
+	background-size: auto;
 	background-position: center;
 	margin-bottom: 5px;
 	background-image: ${({ imageUrl }) => `url(${imageUrl})`};
