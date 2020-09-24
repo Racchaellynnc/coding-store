@@ -1,0 +1,21 @@
+.icon{
+    width: 30px !important;
+    color: #78d188;
+}
+.logo{
+    width: 80px;
+    margin-top: -10px;
+    margin-right: -70px;
+    padding-left: 20px;
+}
+.fab{
+    width: 40px !important;
+    color: #78d188;
+}
+@media screen and (max-width: 800px) {
+    .logo{
+        padding: 0px;
+        margin: auto    ;  
+    }
+    
+  }
