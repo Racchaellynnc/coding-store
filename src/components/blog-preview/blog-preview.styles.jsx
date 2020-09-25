@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const CollectionPreview = styled.div`
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
   color: #555;
   font-weight: 400;
   @media screen and (max-width: 800px) {
