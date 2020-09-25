@@ -4,6 +4,7 @@ node_modules/
 src/pages/categories/*
 src/pages/blog/*
 src/pages/shop/*
+src/assets/*
 src/firebase/*
 src/index.js/*
 src/components/google-map/*
