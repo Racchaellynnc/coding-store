@@ -6,26 +6,30 @@ const buttonStyles = css`
   font-weight: 400 !important;
   text-decoration: none;
   padding-left: 15px;
+  box-shadow: 3px 3px 18px -8px #8b8b8b;
   font-family: Arial, Helvetica, sans-serif;
   padding-right: 15px;
   border-radius: 38px;
   &:hover {
-    background-color: #2871a4;
-    color: white;
+    box-shadow: inset 3px 3px 18px -8px #d8d8d8;
+    transition: 0.3s ease-in-out;
+    color: #444;
   }
 `;
 
 const invertedButtonStyles = css`
   background-color: white;
-  color: #385b7a;
+  color: #444;
+  box-shadow: 3px 3px 18px -8px #d8d8d8;
   border-radius: 38px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600 !important;
   font-size: 14px;
+  transition: 0.3s ease-in-out;
   &:hover {
-    background-color:#2871A4;
-    color: white;
-    border: none;
+    box-shadow: inset 3px 3px 18px -8px #d8d8d8;
+    transition: 0.3s ease-in-out;
+    color: #444;
   }
 `;
 

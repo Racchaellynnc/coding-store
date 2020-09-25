@@ -40,7 +40,7 @@ class SignIn extends React.Component {
 		return (
 			<div className='sign-in'>
 				<h2 className="title"><b>Welcome Back</b> </h2>
-				<span className="title">Sign in with your email or google account</span>
+				<span className="sub-title">SIGN INTO YOUR ACCOUNT</span>
 				<form onSubmit={this.handleSubmit}>
 					<FormInput
 						className='form-input'

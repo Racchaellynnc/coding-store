@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import BlogPreview from '../collection-preview/blog-preview.component';
 import { selectBlogCollectionsForPreview } from '../../redux/blog/blog.selectors';
-import './collections.styles.scss';
+
 
 const BlogOverview = ({ collections }) => (
 	<div className='collections-overview'>

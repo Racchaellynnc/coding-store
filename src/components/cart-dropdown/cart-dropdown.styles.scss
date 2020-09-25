@@ -6,7 +6,7 @@
   	flex-direction: column;
   	padding: 20px;
   	border-radius: 4px;
-  	box-shadow: 0px 27px 77px 7px rgba(99, 0, 99, 0.27);
+  	box-shadow: 3px 3px 18px -8px #8b8b8b;
   	background-color: white;
   	top: 90px;
   	right: 40px;
@@ -22,9 +22,10 @@
     	overflow: scroll;
   	}
   	button {
-    	margin-top: auto;
-    	background-color: #7df48a;
-    	color: black;
+		margin-top: auto;
+		box-shadow: 3px 3px 18px -8px #d8d8d8;
+    	background-color: white;
+  		color: #444;
   	}
 }
 

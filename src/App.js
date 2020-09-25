@@ -10,18 +10,11 @@ import HomePage from './pages/homepage/homepage.component';
 import BlogPage from './pages/blog/blog.component';
 import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
-import Footer from './components/footer/footer';
 import SignInPage from './pages/signin/signin.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import { setCurrentUser } from './redux/user/user.actions';
 import AboutPage from './pages/about/about.component';
-// import MobileBlogReactNative from './pages/categories/mobile-developement/blog-pages/react-native';
-// import JSBlogPage from './pages/categories/js-developement/js-developement';
-// import AwsSecurity from './pages/categories/cloud/aws-security';
-// import Beanstalk from './pages/categories/cloud/elastic-beanstalk';
-// import TypeScriptBlogPage from './pages/categories/js-developement/typescript';
-
 
 
 class App extends React.Component {
@@ -77,11 +70,6 @@ Toggle = () => {
 			</div>
 				<Router > 
 					<Header />
-						{/* <Route exact path='/beanstalk' name="Deploy a Node Application onto Beanstalk" component={Beanstalk} />
-						<Route exact path='/aws-security' component={AwsSecurity} />
-						<Route exact path='/typescript' component={TypeScriptBlogPage} />
-						<Route exact path='/javascript' component={JSBlogPage} />
-						<Route exact path='/reactnative' component={MobileBlogReactNative} /> */}
 						<Route exact path='/' component={HomePage} />
 						<Route exact path='/shop' name="Our Store"component={ShopPage} />
 						<Route exact path='/blog' name="Our Blog" component={BlogPage} />
@@ -100,7 +88,7 @@ Toggle = () => {
 							}
 						/>
 				</Router>
-			</div><Footer className="footer"/>
+			</div>
 			</>
 		);
 	}

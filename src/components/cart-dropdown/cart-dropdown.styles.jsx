@@ -26,7 +26,7 @@ export const CartDropDown = styled.div`
 		}
 		button {
 				margin-top: auto;
-				background-color: #7df48a;
+				background-color: #f8f8f8;
 				color: black;
 			}
 		}

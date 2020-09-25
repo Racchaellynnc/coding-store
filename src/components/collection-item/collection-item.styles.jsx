@@ -2,14 +2,13 @@ import styled from 'styled-components';
 import CustomButton from '../buttons/buttons.component';
 
 export const CollectionItemContainer = styled.div`
-	width: 100%;
+	width: 90%;
 	display: flex;
-	border: .2px solid #999;
-	margin: 10px;
+	box-shadow: 1px 4px 16px -4px #d6d6d6;
+	margin: 20px;
 	flex-direction: column;
 	height: 590px;
 	align-items: center;
-	background-color: #E5E5EA;
 	position: relative;
 		button {
 			opacity: 0.85;
@@ -32,7 +31,7 @@ export const AddButton = styled(CustomButton)`
 	width: 40%;
 	font-weight: 400;
 	background-color: white;
-	color: #333;
+	color: #444;
 	margin: 20px;
 	margin-bottom: 20px;
 	@media screen and (max-width: 650px) {
@@ -56,10 +55,10 @@ export const CollectionFooterContainer = styled.div`
 	width: 80%;
 	margin-top: -40px;
 	display: flex;
+	box-shadow: 7px 7px 27px -15px #d8d8d8;
 	height: 110px;
 	color: #333;
 	background-color: white;
-	border: .2px solid #999;
 	justify-content: space-between;
 	font-size: 22px;
 `;

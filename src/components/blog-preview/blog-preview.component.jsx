@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogItem from '../blog-collection-item/blog-collection-item.component';
+import BlogCollectionItem from '../blog-post-item/blog-post-item.component';
 
 import {
 	CollectionPreview
@@ -12,7 +12,7 @@ const BlogPreview = ({ category, blogs }) => (
 			{blogs
 				.filter((blog, idx) => idx < 3)
 				.map(blog => (
-					<BlogItem key={blog.id} blog={blog} />
+					<BlogCollectionItem key={blog.id} blog={blog} />
 				))}
 		</div>
 	</CollectionPreview>
