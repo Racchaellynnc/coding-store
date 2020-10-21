@@ -15,7 +15,7 @@ const Skills = () => (
             <LinkOptions>
                     Support Us
                 <LinkOptionsOption>
-                    <a href="https://www.gofundme.com/f/coderality?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet">Donate</a>
+                    Donate
                 </LinkOptionsOption>
                 <LinkOptionsOption>
                     Join Us

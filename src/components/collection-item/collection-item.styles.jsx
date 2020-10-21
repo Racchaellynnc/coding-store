@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import CustomButton from '../buttons/buttons.component';
 
 export const CollectionItemContainer = styled.div`
-	width: 90%;
+	width: 100%;
 	display: flex;
 	box-shadow: 1px 4px 16px -4px #d6d6d6;
 	margin: 20px;
 	flex-direction: column;
-	height: 590px;
+	height: 550px;
 	align-items: center;
 	position: relative;
 		button {
@@ -45,9 +45,10 @@ export const BackgroundImage = styled.div`
 	width: 100%;
 	height: 100%;
 	border: 1px solid: #999 !important;
-	background-size: auto;
+	background-size: 100%;
 	background-position: center;
 	margin-bottom: 5px;
+	margin-top: 20px;
 	background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 
