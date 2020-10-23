@@ -1,20 +1,26 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import SHOP_DATA from './shop.data.js';
 import Footer from '../../components/footer/footer';
-import CollectionPreview from '../../components/collection-preview/collection-preview.component';
+import { connect } from 'react-redux';
+
+import { fetchCollectionsStart } from '../../redux/shop/shop.actions';
+
+import CollectionsOverviewContainer from '../../components/collections-overview/collections-overview.container';
+import CollectionPageContainer from '../collection/collection.container';
 
 class ShopPage extends React.Component {
-  constructor(props) {
-    super(props);
+  componentDidMount() {
+    const { fetchCollectionsStart } = this.props;
 
-    this.state = {
-      collections: SHOP_DATA
-    };
+    fetchCollectionsStart();
   }
 
+
   render() {
-    const { collections } = this.state;
+    const { match } = this.props;
+
     return (
       <div className='shop-page'>
         <Helmet>
@@ -32,10 +38,15 @@ class ShopPage extends React.Component {
             <div className="title">
               CODING T-SHIRTS
             </div>
-           
-            {collections.map(({ id, ...otherCollectionProps }) => (
-          <CollectionPreview key={id} {...otherCollectionProps} />
-        ))}
+            <Route
+              exact
+              path={`${match.path}`}
+              component={CollectionsOverviewContainer}
+            />
+            <Route
+              path={`${match.path}/:collectionId`}
+              component={CollectionPageContainer}
+            />
          </div>
          <Footer className="footer"/>
        </div>
@@ -45,4 +56,11 @@ class ShopPage extends React.Component {
   }
 }
 
-export default ShopPage;
+const mapDispatchToProps = dispatch => ({
+  fetchCollectionsStart: () => dispatch(fetchCollectionsStart())
+});
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(ShopPage);

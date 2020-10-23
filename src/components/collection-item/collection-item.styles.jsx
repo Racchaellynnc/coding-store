@@ -7,7 +7,7 @@ export const CollectionItemContainer = styled.div`
 	box-shadow: 1px 4px 16px -4px #d6d6d6;
 	margin: 20px;
 	flex-direction: column;
-	height: 550px;
+	height: 470px;
 	align-items: center;
 	position: relative;
 		button {
@@ -67,11 +67,15 @@ export const CollectionFooterContainer = styled.div`
 export const NameContainer = styled.span`
 	width: 90%;
 	margin: 15px;
+	color: #555;
+	font-size: 16px;
 `;
 
 export const PriceContainer = styled.span`
 	width: 10%;
 	margin-right: 15px;
-	margin-top: 5px;
+	margin-top: 15px;
+	color: #555;
+	font-size: 16px;
 	text-align: right;
 `;
