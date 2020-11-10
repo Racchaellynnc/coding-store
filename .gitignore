@@ -8,6 +8,7 @@ front-end/src/assets/*
 front-end/src/index.js/*
 front-end/src/components/google-map/*
 front-end/src/components/stripe-button/*
+front-end/src/components/coderality-definition/*
 front-end/src/assets/*
 front-end/src.serviceWorker.js/*
 front-end/src/redux/*
