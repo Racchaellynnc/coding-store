@@ -7,6 +7,7 @@ front-end/src/pages/shop/*
 front-end/src/assets/*
 front-end/src/index.js/*
 front-end/src/components/google-map/*
+front-end/src/firebase/*
 front-end/src/components/stripe-button/*
 front-end/src/components/coderality-definition/*
 front-end/src/assets/*
@@ -16,9 +17,7 @@ front-end/src/redux/shop/shop.data.js/*
 front-end/logo.svg/*
 .vscode/*
 .firebase/*
-# production
 front-end//build*
-# misc
 .DS_Store
 .env.local
 .env.development.local
