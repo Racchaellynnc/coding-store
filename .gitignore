@@ -17,7 +17,6 @@ logo.svg/*
 .firebase/*
 # production
 /build
-src/
 # misc
 .DS_Store
 .env.local
