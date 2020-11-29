@@ -37,8 +37,8 @@ const googleSignInStyles = css`
   background-image: linear-gradient(to right,#7df489 -22%,#2871a4 125%);
   color: white;
   font-size: 14px;
-  width: 50%;
   border-radius: 38px;
+  margin-top: 20px;
   border:none;
   font-family: Arial, Helvetica, sans-serif;
   &:hover {
@@ -64,7 +64,6 @@ export const CustomButtonContainer = styled.button`
   border-radius: 38px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 10 35px 0 35px;
   font-size: 15px;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';

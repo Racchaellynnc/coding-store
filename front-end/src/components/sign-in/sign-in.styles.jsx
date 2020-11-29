@@ -32,8 +32,7 @@ export const SignInTitle = styled.h2`
     justify-content: center;
   	@media screen and (max-width: 800px) {
     	padding: 10px;
-    	margin-bottom: -10px;
-    	font-size: 10px;
+    	margin-bottom: 30px;
   	}
 `;
 

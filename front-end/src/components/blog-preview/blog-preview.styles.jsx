@@ -9,6 +9,7 @@ export const CollectionPreview = styled.div`
   @media screen and (max-width: 800px) {
     margin-left: 0px;
     margin-right: 0px;
+    width: 95%;
    }
 `;
 
@@ -26,4 +27,9 @@ export const BlogTitle =styled.h2`
 export const Preview = styled.div`
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   }
 `

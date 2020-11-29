@@ -11,8 +11,7 @@ export const Title = styled.h2`
   	margin-bottom: 25px;
   	@media screen and (max-width: 800px) {
     	padding: 10px;
-    	margin-bottom: -10px;
-    	font-size: 10px;
+    	margin-bottom: 30px;
   	}
 `;
 export const Subtitle = styled.span`

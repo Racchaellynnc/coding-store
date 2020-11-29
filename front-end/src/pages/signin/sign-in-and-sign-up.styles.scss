@@ -1,9 +1,9 @@
 .sign-in-and-sign-up {
-	width: 80%;
+	width: 100%;
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 300px;
+	margin-bottom: 300px !important;
 	margin-top: 177px;
 }
 .signin{
@@ -20,6 +20,7 @@ form {
 	margin-top: 500px;
 	border-radius: 4px;
 	margin: auto;
+	margin-bottom: 100px !important;
 }
 .form-label{
 	margin-left: 70px;

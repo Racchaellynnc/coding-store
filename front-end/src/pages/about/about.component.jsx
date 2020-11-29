@@ -28,9 +28,8 @@ const AboutPage = () => (
           <section className="about-section">
             <div className="title">ABOUT US</div>
             <div className="about-us">
-              We are a just a small family with the last name Coder. All of us love to write code ( even our 2 year old baby writes spaghetti code). 
-              Our main focus as a family is to make the world a better place. 20% of proceeds from our business will be donated to kids in other 
-              countries who can't afford to get education. 
+              We are a just a small family with the last name Coder.
+              Our main focus as a family is to make the world a better place. 20% of proceeds from our business will be donated to charity. 
             </div>
           </section>
         </div>

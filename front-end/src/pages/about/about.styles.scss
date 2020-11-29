@@ -27,13 +27,15 @@
 	flex-direction: column;
 }
 .title{
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	color: #2871a4;
+	font-family: sans-serif;
+	font-size: 27px;
 	text-align: center;
-	width: 100%;
-	margin: auto;
-	color: #2971a4;
-	padding: 30px;
-	font-size: 20px !important;
-	font-weight: 300;
+	margin-bottom: 75px;
+	margin-top: 100px;
 }
 
 .about-title{
@@ -146,6 +148,9 @@ input[type=submit]:hover {
 		padding-top: 30px;
 		margin-top: 90px;
 	 
+	 }
+	 .map{
+		 width: 95% !important; 
 	 }
 	.team-wrapper{
 		flex-direction: column;
