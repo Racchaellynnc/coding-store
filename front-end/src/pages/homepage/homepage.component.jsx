@@ -46,7 +46,7 @@ const HomePage = () => (
 							<LearnButton>Learn more</LearnButton>
 						</LearnLink>
 					</FadeIn>	
-</FadeInUp>
+				</FadeInUp>
 		
 			</TitleWrapper>
 			<PhotoWrapper>
