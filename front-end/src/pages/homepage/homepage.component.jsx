@@ -1,6 +1,9 @@
 import React from 'react';
 import {Helmet} from 'react-helmet';
 import './homepage.styles';
+import FadeIn from '../../components/animations/fade-in';
+import { FadeInUp } from 'animate-css-styled-components';
+
 import Footer from '../../components/footer/footer';
 import {
 	LearnButton,
@@ -26,16 +29,25 @@ const HomePage = () => (
 		</Helmet>	
 		<MainContent>
 			<TitleWrapper className="photo-background">
-				<IntroMessageTitle>
-					TURNING CODE INTO REALITY
-				</IntroMessageTitle>
-				<IntroMessageDescription>
-					We want to help everyone understand the fundamentals of programming. 
-					Learn to code with us, read our latest blog posts, join our tutoring program, or buy a T-shirt.
-				</IntroMessageDescription>
-			<LearnLink to='/about' >
-				<LearnButton>Learn more</LearnButton>
-			</LearnLink>
+				<FadeInUp duration="0.8s" delay="1s">
+					<FadeIn duration="2.8s" delay="0.2s">
+						<IntroMessageTitle>
+							TURNING CODE INTO REALITY
+						</IntroMessageTitle>
+					</FadeIn>
+					<FadeIn duration="3.8s" delay="0.4s">
+						<IntroMessageDescription>
+							We want to help everyone understand the fundamentals of programming. 
+							Learn to code with us, read our latest blog posts, join our tutoring program, or buy a T-shirt.
+						</IntroMessageDescription>
+					</FadeIn>
+					<FadeIn duration="4.8s" delay="1s">
+						<LearnLink to='/about' >
+							<LearnButton>Learn more</LearnButton>
+						</LearnLink>
+					</FadeIn>	
+</FadeInUp>
+		
 			</TitleWrapper>
 			<PhotoWrapper>
 				<PhotoBackground src="https://i.postimg.cc/y8FzsM34/homepage.png" alt="code" /> 

@@ -9,6 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@types/react-select": "^3.0.6",
     "add": "^2.0.6",
+    "animate-css-styled-components": "^1.0.2",
     "axios": "^0.21.0",
     "file-loader": "^6.0.0",
     "firebase": "^7.24.0",
