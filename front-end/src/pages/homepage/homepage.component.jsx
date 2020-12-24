@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from 'react-helmet';
 import './homepage.styles';
 import FadeIn from '../../components/animations/fade-in';
-import { FadeInUp } from 'animate-css-styled-components';
+import { FadeInUp, FadeInRight } from 'animate-css-styled-components';
 
 import Footer from '../../components/footer/footer';
 import {
@@ -29,8 +29,8 @@ const HomePage = () => (
 		</Helmet>	
 		<MainContent>
 			<TitleWrapper className="photo-background">
-				<FadeInUp duration="0.8s" delay="1s">
-					<FadeIn duration="2.8s" delay="0.2s">
+				<FadeInUp duration="0.8s" delay="0.2s">
+					<FadeIn duration="1.8s" delay="0.2s">
 						<IntroMessageTitle>
 							TURNING CODE INTO REALITY
 						</IntroMessageTitle>
@@ -50,7 +50,10 @@ const HomePage = () => (
 		
 			</TitleWrapper>
 			<PhotoWrapper>
-				<PhotoBackground src="https://i.postimg.cc/y8FzsM34/homepage.png" alt="code" /> 
+				<FadeInRight duration="3.8s" delay="0s" >
+					<PhotoBackground src="https://i.postimg.cc/y8FzsM34/homepage.png" alt="code" /> 
+				</FadeInRight>
+				
 			</PhotoWrapper>
 		</MainContent>	
 		<MobileBackground src="https://i.postimg.cc/Cxfq523g/Untitled-4.png" alt="code" className="mobile-background" /> 

@@ -11,7 +11,7 @@
 	background-image: url('https://i.postimg.cc/VsBLX0th/Untitled-5.png');
 	background-size: cover;
 	width: 100%;
-	margin-top: -499px;
+	margin-top: -722px;
 	margin-bottom: 70px;
 }
 .intro-container-2{
@@ -19,7 +19,6 @@
 	background-image: url('https://i.postimg.cc/sX7G7qwt/shop-page.png');
 	background-size: cover;
 	width: 100%;
-	margin-top: -399px;
 }
 
 .img-wrapper{
@@ -44,17 +43,18 @@
 	margin: auto;
 	padding-top: 30px;
 }
+
 .about-us{
-	padding: 30px;
+	padding: 50px;
 	font-size: 22px;
-	width: 80%;
+	width: 90%;
+	box-shadow: 3px 3px 18px -8px #8b8b8b;
 	margin: auto;
 }
 .about-text{
 	width: 65%;
 	padding: 30px;
 	margin: auto;
-	box-shadow: 3px 3px 18px -8px #8b8b8b;
 	text-align: center;
 	padding-bottom: 111px;
 }
@@ -67,7 +67,6 @@
 	width: 70%;
 	margin: auto;
 	padding: 20px;
-	box-shadow: 3px 3px 18px -8px #8b8b8b;
 }
 .form-title{
 	text-align: center;
@@ -79,6 +78,7 @@
 }
 form {
 	color: rgb(88, 88, 88);
+	box-shadow: 3px 3px 18px -8px #8b8b8b;
 	padding: 30px;
 	width: 80%;
 	margin-top: 500px;
@@ -94,9 +94,7 @@ form {
 	height: 100vh;
 	text-align: center;
 }
-.map{
-	width: 50% !important;
-}
+
 .contact {
 	border-radius: 4px;
 	width: 100%;

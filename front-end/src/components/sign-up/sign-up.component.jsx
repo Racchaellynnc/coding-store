@@ -4,6 +4,7 @@ import CustomButton from '../buttons/buttons.component';
 import { Title, Subtitle, Form, SignUpForm } from './sign-up.styles';
 import { signUpStart } from '../../redux/user/user.actions';
 import { connect } from 'react-redux';
+import { FadeInUp, SlideInUp } from 'animate-css-styled-components';
 
 
 const SignUp = ({signUpStart}) => {
@@ -31,8 +32,11 @@ const SignUp = ({signUpStart}) => {
     };
         return(     
           <SignUpForm className="sign-up">
-            <Title ><b>Don't have an account yet?</b> </Title>
+            <FadeInUp>
+               <Title ><b>Don't have an account yet?</b> </Title>
             <Subtitle >SIGN UP</Subtitle>
+            </FadeInUp>
+           
             <Form className="sign-up-form" onSubmit={handleSubmit}>
               <FormInput
                 type="text"

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import FormInput from '../form-input/form-input.component';
 import Buttons from '../buttons/buttons.component';
 import { SignInTitle, Subtitle, Form, SignInForm } from './sign-in.styles';
-
+import { FadeInUp} from 'animate-css-styled-components';
 import {
 	googleSignInStart,
 	emailSignInStart
@@ -23,10 +23,13 @@ import {
 	  setCredentials({ ...userCredentials,  [name]: value });
 	};
 		return (
-			<SignInForm>
-				<SignInTitle> Welcome Back </SignInTitle>
-				<Subtitle></Subtitle>
-				<Form onSubmit={handleSubmit}>
+			<SignInForm className="sign-in">
+				<FadeInUp>
+               		<SignInTitle className="sign-in-title" > <b>Welcome Back!</b> </SignInTitle>
+            		<Subtitle> SIGN IN</Subtitle>
+            	</FadeInUp>
+				
+				<Form className="sign-in-form" onSubmit={handleSubmit}>
 					<FormInput
 						className='form-input'
 						name='email'

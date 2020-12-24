@@ -26,6 +26,7 @@ export const BlogTitle =styled.h2`
 `
 export const Preview = styled.div`
   display: flex;
+  margin-top: 77px;
   justify-content: space-between;
   @media screen and (max-width: 800px) {
     display: flex;

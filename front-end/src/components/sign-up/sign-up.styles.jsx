@@ -14,10 +14,14 @@ export const Title = styled.h2`
     	margin-bottom: 30px;
   	}
 `;
-export const Subtitle = styled.span`
+
+export const Subtitle = styled.div`
     text-align: center;
     margin: auto;
+    width: 100%;
+    align-items: center;
     font-size: 22px;
+    justify-content: center;
     padding-bottom: 30px;
     color: #2871a4;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
