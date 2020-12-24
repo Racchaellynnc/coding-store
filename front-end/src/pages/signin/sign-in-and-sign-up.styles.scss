@@ -13,6 +13,20 @@
 	margin-top: 0px !important;
 }
 
+.sign-in-title {
+	width: 100%;
+	display: flex;
+	color: #2871a4;
+	text-align: center !important;
+	margin: auto;
+	font-size: 28px;
+	justify-content: center;
+	margin-bottom: 25px;
+	@media screen and (max-width: 800px) {
+		padding: 10px;
+		margin-bottom: 30px;
+		}
+	}
 form {
 	color: rgb(88, 88, 88);
 	padding: 30px;

@@ -1,12 +1,31 @@
 import styled from 'styled-components';
 
-export const Subtitle = styled.span`
+export const SignInTitle = styled.h2`
+  	width: 100%;
+    display: flex;
+    color: #2871a4;
+	text-align: center !important;
+    margin: auto;
+    font-size: 28px;
+    justify-content: center;
+  	margin-bottom: 25px;
+  	@media screen and (max-width: 800px) {
+    	padding: 10px;
+    	margin-bottom: 30px;
+  	}
+`;
+
+
+
+export const Subtitle = styled.div`
     text-align: center;
     margin: auto;
+    width: 100%;
+    align-items: center;
     font-size: 22px;
+    justify-content: center;
     padding-bottom: 30px;
     color: #2871a4;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 `;
 
 export const SignInForm = styled.div`
@@ -23,19 +42,3 @@ export const Form = styled.form`
     color: #333;
     box-shadow: 3px 3px 18px -8px #8b8b8b;
 `;
-export const SignInTitle = styled.h2`
-  	width: 100%;
-    color: #2871a4 !important;
-	text-align: center !important;
-    margin: auto;
-    font-size: 28px;
-    justify-content: center;
-  	@media screen and (max-width: 800px) {
-    	padding: 10px;
-    	margin-bottom: 30px;
-  	}
-`;
-
-
-
-
